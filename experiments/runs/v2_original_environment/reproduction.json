@@ -1,0 +1,7 @@
+{
+  "reference_sha256": "24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d",
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "mean_absolute_difference": 3.488631527106441e-17,
+  "matches_at_1e_10": true,
+  "spearman_rank_correlation": 1.0
+}

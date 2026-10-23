@@ -1,0 +1,22 @@
+{
+  "development_summary": {
+    "downstream_probability": {
+      "mean": -0.024528191187390913,
+      "min": -0.039030835513414464
+    },
+    "undirected_logodds": {
+      "mean": -0.009611050102836471,
+      "min": -0.022333196815616185
+    },
+    "undirected_probability": {
+      "mean": -0.03050217326909858,
+      "min": -0.05308892346126237
+    },
+    "upstream_probability": {
+      "mean": -0.00969140166125193,
+      "min": -0.019337019084540774
+    }
+  },
+  "frozen_candidate": null,
+  "passes_confirmation": false
+}

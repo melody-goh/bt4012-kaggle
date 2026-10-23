@@ -1,0 +1,16 @@
+# Competition data (large; not ours to redistribute)
+train.csv
+test.csv
+txs_edgelist.csv
+sample_submission.csv
+
+# Archives, environments, caches, model binaries
+experiments.zip
+.venv/
+experiments/.venv/
+__pycache__/
+catboost_info/
+*.joblib
+*.pkl
+.DS_Store
+.ipynb_checkpoints/

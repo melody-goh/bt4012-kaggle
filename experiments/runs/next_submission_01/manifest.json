@@ -1,0 +1,62 @@
+{
+  "config": {
+    "development_origins": [
+      7,
+      14,
+      21
+    ],
+    "confirmation_origins": [
+      10,
+      17
+    ],
+    "horizon": 14,
+    "candidate_weight": 0.25,
+    "seed": 42,
+    "candidates": {
+      "stable_features": {
+        "retained_features": 120,
+        "selection": "mean normalized gain rank from 3 expanding inner training prefixes; never use outer validation"
+      },
+      "extra_trees": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "max_features": 0.7,
+        "n_jobs": 4,
+        "random_state": 42
+      },
+      "dart": {
+        "boosting_type": "dart",
+        "n_estimators": 500,
+        "learning_rate": 0.03,
+        "num_leaves": 31,
+        "drop_rate": 0.1,
+        "skip_drop": 0.5,
+        "random_state": 42,
+        "n_jobs": 4,
+        "verbosity": -1
+      }
+    },
+    "selection": "Select the fixed 75% V2 + 25% candidate blend with the highest mean development AUC gain among those with minimum gain >= -0.0005 and positive mean. Require confirmation mean gain > 0 and neither confirmation gain < -0.001. Otherwise retain V2. No blend-weight search."
+  },
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "1.25.2",
+    "pandas": "2.0.3",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.11.2",
+    "joblib": "1.4.2"
+  },
+  "sources": {
+    "prepare_next_submission.py": "f95152b7b0be9195f4bb319e8424ab1a81f643745d2a47e8cf67a86c39e6473c",
+    "pipeline.py": "184f11c2849c6e2ef5f93f67d060871aaf9d0f1d311cde719aa6aea7b164b4a0",
+    "next_submission.json": "add259d9869115b0631a614669669fe47fd68ac4d63cbca4864c0c3740636184"
+  },
+  "inputs": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e",
+    "submission_v2.csv": "24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d"
+  }
+}

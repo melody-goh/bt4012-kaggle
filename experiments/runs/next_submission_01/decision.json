@@ -1,0 +1,28 @@
+{
+  "development_summary": {
+    "dart": {
+      "mean": -0.008814465538244942,
+      "min": -0.01801961464485391
+    },
+    "extra_trees": {
+      "mean": -0.02601400429530047,
+      "min": -0.07326367522503274
+    },
+    "stable_features": {
+      "mean": -0.0010652631185398647,
+      "min": -0.0023741248725965836
+    }
+  },
+  "frozen_challenger": null,
+  "confirmation_origins": [
+    10,
+    17
+  ],
+  "selection_rule": "Select the fixed 75% V2 + 25% candidate blend with the highest mean development AUC gain among those with minimum gain >= -0.0005 and positive mean. Require confirmation mean gain > 0 and neither confirmation gain < -0.001. Otherwise retain V2. No blend-weight search.",
+  "passes_confirmation": false,
+  "submission_model": "v2_incumbent",
+  "submission_file": "submission_incumbent_v2.csv",
+  "submission_sha256": "79e84399fe6ba73c2799325ad533df045b8f548bc872fcd56928e1ec14856549",
+  "max_probability_change_vs_v2": 0.0,
+  "rank_correlation_vs_v2": 1.0
+}

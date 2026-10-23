@@ -1,0 +1,28 @@
+{
+  "inner_train_end": 11,
+  "calibration_steps": 3,
+  "tested_thresholds": [
+    {
+      "target": 0,
+      "threshold": 0.01,
+      "count": 1368,
+      "precision": 0.9948830409356725
+    },
+    {
+      "target": 1,
+      "threshold": 0.99,
+      "count": 317,
+      "precision": 1.0
+    }
+  ],
+  "selected_thresholds": {
+    "0": 0.01,
+    "1": 0.99
+  },
+  "pseudo_counts": {
+    "0": 13891,
+    "1": 711
+  },
+  "labelled_rows": 14896,
+  "warning": "Calibration precision is an empirical estimate on known labels; unknown-label precision is not observed."
+}

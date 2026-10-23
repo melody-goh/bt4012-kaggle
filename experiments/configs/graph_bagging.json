@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Reduce training variance while retaining V2's full feature set, equal training weights, and tree complexity. Avoid the large ranking change induced by feature-group specialists.",
+  "seeds": [17, 42, 2026],
+  "parameters": {"n_estimators": 300, "learning_rate": 0.03, "num_leaves": 31, "verbosity": -1, "n_jobs": 4, "subsample": 0.9, "subsample_freq": 1, "colsample_bytree": 0.9},
+  "v2_weight": 0.5,
+  "origins": [7, 14, 21],
+  "horizon": 14,
+  "advancement_rule": "Both legacy origins (14,21) must improve pooled AUC; origin 7 must not lose more than 0.001. This is a retrospective screening rule, not proof of hidden-test gain."
+}

@@ -1,0 +1,9 @@
+{
+  "development_origins": [7,14,21],
+  "confirmation_origins": [10,17],
+  "horizon": 14,
+  "candidate_weight": 0.25,
+  "catboost": {"iterations": 1000, "depth": 6, "learning_rate": 0.04, "l2_leaf_reg": 10, "boosting_type": "Ordered", "loss_function": "Logloss", "random_seed": 42, "thread_count": 4, "verbose": false, "allow_writing_files": false},
+  "pseudo": {"positive_thresholds": [0.99,0.995,0.999], "negative_thresholds": [0.01,0.005,0.001], "required_precision": 0.99, "minimum_calibration_examples": 20, "sample_weight": 0.2, "maximum_pseudo_to_labelled_ratio_per_class": 1, "calibration_steps": 3},
+  "selection": "Only blends with positive mean development gain and no development loss worse than 0.001 can advance. Freeze highest mean candidate. Require both additional-cutoff gains >= -0.001 and positive mean. These overlapping windows are not pristine holdouts."
+}

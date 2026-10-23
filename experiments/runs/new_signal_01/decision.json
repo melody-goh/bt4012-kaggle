@@ -1,0 +1,17 @@
+{
+  "development_summary": {
+    "ordered_catboost": {
+      "mean": 0.0007885789865549331,
+      "min": 0.0003990541641412104
+    },
+    "pseudo_labels": {
+      "mean": -0.00025564706643292173,
+      "min": -0.0007886909021286304
+    }
+  },
+  "frozen_candidate": "ordered_catboost",
+  "passes_confirmation": true,
+  "submission_file": "submission_ordered_catboost.csv",
+  "submission_sha256": "3762f602b9b4c7de10e08d8750298180e9c806df793304b8c0c3712d1153085f",
+  "rank_correlation_vs_v2": 0.9949096181811714
+}

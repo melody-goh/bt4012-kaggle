@@ -1,0 +1,82 @@
+{
+  "command": {
+    "command": "reproduce-v2",
+    "data_dir": "/Users/melodygoh/bt4012_kaggle",
+    "config": "/Users/melodygoh/bt4012_kaggle/experiments/configs/initial.json",
+    "role": "development",
+    "model": "v7_graph",
+    "run_id": "v2_reproduction"
+  },
+  "config": {
+    "seed": 42,
+    "folds": [
+      {
+        "name": "development_8_21",
+        "role": "development",
+        "train_end": 7,
+        "valid_start": 8,
+        "valid_end": 21
+      },
+      {
+        "name": "historical_check_22_35",
+        "role": "historical_check",
+        "train_end": 21,
+        "valid_start": 22,
+        "valid_end": 35
+      },
+      {
+        "name": "legacy_15_28",
+        "role": "legacy",
+        "train_end": 14,
+        "valid_start": 15,
+        "valid_end": 28
+      }
+    ],
+    "common_params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "num_leaves": 31,
+      "random_state": 42,
+      "verbosity": -1,
+      "n_jobs": 4
+    },
+    "models": {
+      "original": {
+        "graph": false,
+        "params": {}
+      },
+      "v7_graph": {
+        "graph": true,
+        "params": {}
+      },
+      "regularized_graph": {
+        "graph": true,
+        "params": {
+          "num_leaves": 15,
+          "min_child_samples": 100,
+          "reg_lambda": 10.0,
+          "colsample_bytree": 0.8
+        }
+      }
+    }
+  },
+  "python": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "source_hashes": {
+    "run.py": "8eda1b48948a7986be13cd95be3d7f0a6d7b6fcc2c139cefce300cf49aef1299",
+    "pipeline.py": "6cb5811ccaf046d35c0952362ce47d9445fcfb260d5e34ba783c4bc6101711a0",
+    "initial.json": "a756ce90bbc66786f0dbc1c028b7330cb8e4f4a9af6b2b9676d3d5a9735a71da"
+  },
+  "inputs": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e"
+  }
+}

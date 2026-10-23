@@ -1,0 +1,13 @@
+{
+  "development_summary": {
+    "ordered_catboost": {
+      "mean": 0.0007885789865549331,
+      "min": 0.0003990541641412104
+    },
+    "pseudo_labels": {
+      "mean": -0.00025564706643292173,
+      "min": -0.0007886909021286304
+    }
+  },
+  "frozen_candidate": "ordered_catboost"
+}

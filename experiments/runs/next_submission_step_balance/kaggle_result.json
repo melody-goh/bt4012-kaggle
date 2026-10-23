@@ -1,0 +1,8 @@
+{
+  "filename": "submissions/submission_next_step_balanced_graph.csv",
+  "public_roc_auc": 0.9477,
+  "source": "user reported in chat",
+  "date_singapore": "2026-10-18",
+  "difference_vs_v2": -0.00015,
+  "status": "did not improve incumbent"
+}

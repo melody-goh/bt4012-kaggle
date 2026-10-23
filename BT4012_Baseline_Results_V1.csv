@@ -1,0 +1,5 @@
+fold,model,train_rows,valid_rows,roc_auc,average_precision
+Holdout 22-35,Logistic Regression,19530,11705,0.82275,0.45318
+Holdout 22-35,LightGBM,19530,11705,0.82777,0.74526
+Holdout 29-35,Logistic Regression,25207,6028,0.89618,0.56212
+Holdout 29-35,LightGBM,25207,6028,0.99611,0.98417

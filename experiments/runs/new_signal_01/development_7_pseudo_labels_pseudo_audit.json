@@ -1,0 +1,46 @@
+{
+  "inner_train_end": 4,
+  "calibration_steps": 3,
+  "tested_thresholds": [
+    {
+      "target": 0,
+      "threshold": 0.01,
+      "count": 3559,
+      "precision": 0.9688114638943524
+    },
+    {
+      "target": 0,
+      "threshold": 0.005,
+      "count": 3558,
+      "precision": 0.9690837549184935
+    },
+    {
+      "target": 0,
+      "threshold": 0.001,
+      "count": 3544,
+      "precision": 0.968961625282167
+    },
+    {
+      "target": 1,
+      "threshold": 0.99,
+      "count": 9,
+      "precision": 0.4444444444444444
+    },
+    {
+      "target": 1,
+      "threshold": 0.995,
+      "count": 8,
+      "precision": 0.5
+    },
+    {
+      "target": 1,
+      "threshold": 0.999,
+      "count": 6,
+      "precision": 0.6666666666666666
+    }
+  ],
+  "selected_thresholds": {},
+  "pseudo_counts": {},
+  "labelled_rows": 9553,
+  "warning": "Calibration precision is an empirical estimate on known labels; unknown-label precision is not observed."
+}

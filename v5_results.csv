@@ -1,0 +1,9 @@
+train_end,training_rows,features,trees,roc_auc,pr_auc
+21,19530,All features,100,0.85303,0.75139
+21,19530,All features,300,0.83918,0.76036
+21,19530,Without feat_2,100,0.80373,0.75566
+21,19530,Without feat_2,300,0.84697,0.77045
+28,25207,All features,100,0.99261,0.97401
+28,25207,All features,300,0.99629,0.98658
+28,25207,Without feat_2,100,0.99385,0.97664
+28,25207,Without feat_2,300,0.99723,0.99039

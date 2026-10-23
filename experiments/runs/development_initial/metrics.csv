@@ -1,0 +1,4 @@
+fold,role,model,roc_auc,average_precision,rows,positives
+development_8_21,development,original,0.9934159363395835,0.9813387358304934,9977,1680
+development_8_21,development,v7_graph,0.9934873907379029,0.9812504481788757,9977,1680
+development_8_21,development,regularized_graph,0.9926872593077244,0.9791832814976409,9977,1680

@@ -1,0 +1,8 @@
+{
+  "edges": 234355,
+  "duplicate_edges": 0,
+  "edges_with_both_features": 175918,
+  "cross_step_known_edges": 0,
+  "graph_nodes": 203769,
+  "test_without_known_predecessor_fraction": 0.6031704612173006
+}

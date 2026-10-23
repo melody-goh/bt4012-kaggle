@@ -1,0 +1,1321 @@
+fold,experiment,feature,importance
+earlier,Full features,feat_1,46
+earlier,Full features,feat_2,258
+earlier,Full features,feat_3,55
+earlier,Full features,feat_4,5
+earlier,Full features,feat_5,30
+earlier,Full features,feat_6,24
+earlier,Full features,feat_7,0
+earlier,Full features,feat_8,59
+earlier,Full features,feat_9,3
+earlier,Full features,feat_10,0
+earlier,Full features,feat_11,24
+earlier,Full features,feat_12,10
+earlier,Full features,feat_13,1
+earlier,Full features,feat_14,0
+earlier,Full features,feat_15,0
+earlier,Full features,feat_16,44
+earlier,Full features,feat_17,6
+earlier,Full features,feat_18,10
+earlier,Full features,feat_19,15
+earlier,Full features,feat_20,1
+earlier,Full features,feat_21,0
+earlier,Full features,feat_22,15
+earlier,Full features,feat_23,17
+earlier,Full features,feat_24,8
+earlier,Full features,feat_25,15
+earlier,Full features,feat_26,1
+earlier,Full features,feat_27,0
+earlier,Full features,feat_28,0
+earlier,Full features,feat_29,2
+earlier,Full features,feat_30,0
+earlier,Full features,feat_31,3
+earlier,Full features,feat_32,0
+earlier,Full features,feat_33,0
+earlier,Full features,feat_34,0
+earlier,Full features,feat_35,11
+earlier,Full features,feat_36,0
+earlier,Full features,feat_37,9
+earlier,Full features,feat_38,0
+earlier,Full features,feat_39,0
+earlier,Full features,feat_40,1
+earlier,Full features,feat_41,41
+earlier,Full features,feat_42,4
+earlier,Full features,feat_43,9
+earlier,Full features,feat_44,14
+earlier,Full features,feat_45,0
+earlier,Full features,feat_46,5
+earlier,Full features,feat_47,63
+earlier,Full features,feat_48,0
+earlier,Full features,feat_49,20
+earlier,Full features,feat_50,2
+earlier,Full features,feat_51,0
+earlier,Full features,feat_52,39
+earlier,Full features,feat_53,68
+earlier,Full features,feat_54,1
+earlier,Full features,feat_55,25
+earlier,Full features,feat_56,1
+earlier,Full features,feat_57,0
+earlier,Full features,feat_58,39
+earlier,Full features,feat_59,28
+earlier,Full features,feat_60,1
+earlier,Full features,feat_61,7
+earlier,Full features,feat_62,1
+earlier,Full features,feat_63,0
+earlier,Full features,feat_64,25
+earlier,Full features,feat_65,4
+earlier,Full features,feat_66,0
+earlier,Full features,feat_67,5
+earlier,Full features,feat_68,0
+earlier,Full features,feat_69,0
+earlier,Full features,feat_70,7
+earlier,Full features,feat_71,0
+earlier,Full features,feat_72,2
+earlier,Full features,feat_73,0
+earlier,Full features,feat_74,0
+earlier,Full features,feat_75,0
+earlier,Full features,feat_76,25
+earlier,Full features,feat_77,23
+earlier,Full features,feat_78,3
+earlier,Full features,feat_79,2
+earlier,Full features,feat_80,46
+earlier,Full features,feat_81,1
+earlier,Full features,feat_82,4
+earlier,Full features,feat_83,20
+earlier,Full features,feat_84,1
+earlier,Full features,feat_85,12
+earlier,Full features,feat_86,1
+earlier,Full features,feat_87,0
+earlier,Full features,feat_88,3
+earlier,Full features,feat_89,36
+earlier,Full features,feat_90,45
+earlier,Full features,feat_91,10
+earlier,Full features,feat_92,7
+earlier,Full features,feat_93,0
+earlier,Full features,feat_94,21
+earlier,Full features,feat_95,13
+earlier,Full features,feat_96,7
+earlier,Full features,feat_97,1
+earlier,Full features,feat_98,5
+earlier,Full features,feat_99,0
+earlier,Full features,feat_100,23
+earlier,Full features,feat_101,19
+earlier,Full features,feat_102,49
+earlier,Full features,feat_103,21
+earlier,Full features,feat_104,1
+earlier,Full features,feat_105,0
+earlier,Full features,feat_106,6
+earlier,Full features,feat_107,19
+earlier,Full features,feat_108,2
+earlier,Full features,feat_109,9
+earlier,Full features,feat_110,2
+earlier,Full features,feat_111,0
+earlier,Full features,feat_112,1
+earlier,Full features,feat_113,3
+earlier,Full features,feat_114,0
+earlier,Full features,feat_115,8
+earlier,Full features,feat_116,0
+earlier,Full features,feat_117,0
+earlier,Full features,feat_118,0
+earlier,Full features,feat_119,11
+earlier,Full features,feat_120,3
+earlier,Full features,feat_121,9
+earlier,Full features,feat_122,1
+earlier,Full features,feat_123,2
+earlier,Full features,feat_124,4
+earlier,Full features,feat_125,0
+earlier,Full features,feat_126,1
+earlier,Full features,feat_127,1
+earlier,Full features,feat_128,3
+earlier,Full features,feat_129,0
+earlier,Full features,feat_130,12
+earlier,Full features,feat_131,3
+earlier,Full features,feat_132,49
+earlier,Full features,feat_133,4
+earlier,Full features,feat_134,4
+earlier,Full features,feat_135,0
+earlier,Full features,feat_136,14
+earlier,Full features,feat_137,16
+earlier,Full features,feat_138,53
+earlier,Full features,feat_139,29
+earlier,Full features,feat_140,0
+earlier,Full features,feat_141,0
+earlier,Full features,feat_142,64
+earlier,Full features,feat_143,2
+earlier,Full features,feat_144,11
+earlier,Full features,feat_145,4
+earlier,Full features,feat_146,0
+earlier,Full features,feat_147,0
+earlier,Full features,feat_148,0
+earlier,Full features,feat_149,1
+earlier,Full features,feat_150,0
+earlier,Full features,feat_151,1
+earlier,Full features,feat_152,7
+earlier,Full features,feat_153,1
+earlier,Full features,feat_154,23
+earlier,Full features,feat_155,4
+earlier,Full features,feat_156,1
+earlier,Full features,feat_157,9
+earlier,Full features,feat_158,7
+earlier,Full features,feat_159,0
+earlier,Full features,feat_160,3
+earlier,Full features,feat_161,7
+earlier,Full features,feat_162,1
+earlier,Full features,feat_163,21
+earlier,Full features,feat_164,1
+earlier,Full features,feat_165,0
+earlier,Without feat_2,feat_1,36
+earlier,Without feat_2,feat_3,246
+earlier,Without feat_2,feat_4,37
+earlier,Without feat_2,feat_5,82
+earlier,Without feat_2,feat_6,33
+earlier,Without feat_2,feat_7,1
+earlier,Without feat_2,feat_8,117
+earlier,Without feat_2,feat_9,41
+earlier,Without feat_2,feat_10,25
+earlier,Without feat_2,feat_11,100
+earlier,Without feat_2,feat_12,17
+earlier,Without feat_2,feat_13,15
+earlier,Without feat_2,feat_14,0
+earlier,Without feat_2,feat_15,0
+earlier,Without feat_2,feat_16,143
+earlier,Without feat_2,feat_17,41
+earlier,Without feat_2,feat_18,65
+earlier,Without feat_2,feat_19,13
+earlier,Without feat_2,feat_20,1
+earlier,Without feat_2,feat_21,0
+earlier,Without feat_2,feat_22,72
+earlier,Without feat_2,feat_23,47
+earlier,Without feat_2,feat_24,14
+earlier,Without feat_2,feat_25,62
+earlier,Without feat_2,feat_26,12
+earlier,Without feat_2,feat_27,7
+earlier,Without feat_2,feat_28,1
+earlier,Without feat_2,feat_29,23
+earlier,Without feat_2,feat_30,2
+earlier,Without feat_2,feat_31,2
+earlier,Without feat_2,feat_32,0
+earlier,Without feat_2,feat_33,4
+earlier,Without feat_2,feat_34,8
+earlier,Without feat_2,feat_35,19
+earlier,Without feat_2,feat_36,0
+earlier,Without feat_2,feat_37,29
+earlier,Without feat_2,feat_38,0
+earlier,Without feat_2,feat_39,0
+earlier,Without feat_2,feat_40,9
+earlier,Without feat_2,feat_41,111
+earlier,Without feat_2,feat_42,10
+earlier,Without feat_2,feat_43,52
+earlier,Without feat_2,feat_44,19
+earlier,Without feat_2,feat_45,0
+earlier,Without feat_2,feat_46,3
+earlier,Without feat_2,feat_47,86
+earlier,Without feat_2,feat_48,13
+earlier,Without feat_2,feat_49,87
+earlier,Without feat_2,feat_50,0
+earlier,Without feat_2,feat_51,0
+earlier,Without feat_2,feat_52,142
+earlier,Without feat_2,feat_53,276
+earlier,Without feat_2,feat_54,25
+earlier,Without feat_2,feat_55,119
+earlier,Without feat_2,feat_56,3
+earlier,Without feat_2,feat_57,3
+earlier,Without feat_2,feat_58,289
+earlier,Without feat_2,feat_59,202
+earlier,Without feat_2,feat_60,53
+earlier,Without feat_2,feat_61,58
+earlier,Without feat_2,feat_62,13
+earlier,Without feat_2,feat_63,0
+earlier,Without feat_2,feat_64,126
+earlier,Without feat_2,feat_65,5
+earlier,Without feat_2,feat_66,3
+earlier,Without feat_2,feat_67,4
+earlier,Without feat_2,feat_68,4
+earlier,Without feat_2,feat_69,0
+earlier,Without feat_2,feat_70,11
+earlier,Without feat_2,feat_71,14
+earlier,Without feat_2,feat_72,10
+earlier,Without feat_2,feat_73,4
+earlier,Without feat_2,feat_74,21
+earlier,Without feat_2,feat_75,0
+earlier,Without feat_2,feat_76,85
+earlier,Without feat_2,feat_77,34
+earlier,Without feat_2,feat_78,24
+earlier,Without feat_2,feat_79,37
+earlier,Without feat_2,feat_80,76
+earlier,Without feat_2,feat_81,1
+earlier,Without feat_2,feat_82,2
+earlier,Without feat_2,feat_83,51
+earlier,Without feat_2,feat_84,7
+earlier,Without feat_2,feat_85,41
+earlier,Without feat_2,feat_86,11
+earlier,Without feat_2,feat_87,0
+earlier,Without feat_2,feat_88,102
+earlier,Without feat_2,feat_89,119
+earlier,Without feat_2,feat_90,103
+earlier,Without feat_2,feat_91,40
+earlier,Without feat_2,feat_92,38
+earlier,Without feat_2,feat_93,1
+earlier,Without feat_2,feat_94,75
+earlier,Without feat_2,feat_95,36
+earlier,Without feat_2,feat_96,40
+earlier,Without feat_2,feat_97,48
+earlier,Without feat_2,feat_98,17
+earlier,Without feat_2,feat_99,2
+earlier,Without feat_2,feat_100,94
+earlier,Without feat_2,feat_101,69
+earlier,Without feat_2,feat_102,136
+earlier,Without feat_2,feat_103,45
+earlier,Without feat_2,feat_104,42
+earlier,Without feat_2,feat_105,18
+earlier,Without feat_2,feat_106,110
+earlier,Without feat_2,feat_107,54
+earlier,Without feat_2,feat_108,23
+earlier,Without feat_2,feat_109,45
+earlier,Without feat_2,feat_110,13
+earlier,Without feat_2,feat_111,4
+earlier,Without feat_2,feat_112,30
+earlier,Without feat_2,feat_113,10
+earlier,Without feat_2,feat_114,10
+earlier,Without feat_2,feat_115,36
+earlier,Without feat_2,feat_116,6
+earlier,Without feat_2,feat_117,0
+earlier,Without feat_2,feat_118,7
+earlier,Without feat_2,feat_119,26
+earlier,Without feat_2,feat_120,20
+earlier,Without feat_2,feat_121,26
+earlier,Without feat_2,feat_122,9
+earlier,Without feat_2,feat_123,3
+earlier,Without feat_2,feat_124,25
+earlier,Without feat_2,feat_125,94
+earlier,Without feat_2,feat_126,3
+earlier,Without feat_2,feat_127,82
+earlier,Without feat_2,feat_128,13
+earlier,Without feat_2,feat_129,0
+earlier,Without feat_2,feat_130,67
+earlier,Without feat_2,feat_131,49
+earlier,Without feat_2,feat_132,136
+earlier,Without feat_2,feat_133,55
+earlier,Without feat_2,feat_134,9
+earlier,Without feat_2,feat_135,0
+earlier,Without feat_2,feat_136,56
+earlier,Without feat_2,feat_137,64
+earlier,Without feat_2,feat_138,152
+earlier,Without feat_2,feat_139,51
+earlier,Without feat_2,feat_140,8
+earlier,Without feat_2,feat_141,0
+earlier,Without feat_2,feat_142,291
+earlier,Without feat_2,feat_143,168
+earlier,Without feat_2,feat_144,51
+earlier,Without feat_2,feat_145,46
+earlier,Without feat_2,feat_146,46
+earlier,Without feat_2,feat_147,1
+earlier,Without feat_2,feat_148,12
+earlier,Without feat_2,feat_149,24
+earlier,Without feat_2,feat_150,18
+earlier,Without feat_2,feat_151,13
+earlier,Without feat_2,feat_152,22
+earlier,Without feat_2,feat_153,1
+earlier,Without feat_2,feat_154,78
+earlier,Without feat_2,feat_155,94
+earlier,Without feat_2,feat_156,32
+earlier,Without feat_2,feat_157,47
+earlier,Without feat_2,feat_158,58
+earlier,Without feat_2,feat_159,13
+earlier,Without feat_2,feat_160,2
+earlier,Without feat_2,feat_161,93
+earlier,Without feat_2,feat_162,39
+earlier,Without feat_2,feat_163,63
+earlier,Without feat_2,feat_164,26
+earlier,Without feat_2,feat_165,2
+earlier,Recent 12 steps,feat_1,68
+earlier,Recent 12 steps,feat_2,313
+earlier,Recent 12 steps,feat_3,47
+earlier,Recent 12 steps,feat_4,42
+earlier,Recent 12 steps,feat_5,44
+earlier,Recent 12 steps,feat_6,54
+earlier,Recent 12 steps,feat_7,2
+earlier,Recent 12 steps,feat_8,79
+earlier,Recent 12 steps,feat_9,12
+earlier,Recent 12 steps,feat_10,1
+earlier,Recent 12 steps,feat_11,26
+earlier,Recent 12 steps,feat_12,4
+earlier,Recent 12 steps,feat_13,4
+earlier,Recent 12 steps,feat_14,0
+earlier,Recent 12 steps,feat_15,0
+earlier,Recent 12 steps,feat_16,44
+earlier,Recent 12 steps,feat_17,14
+earlier,Recent 12 steps,feat_18,26
+earlier,Recent 12 steps,feat_19,14
+earlier,Recent 12 steps,feat_20,6
+earlier,Recent 12 steps,feat_21,0
+earlier,Recent 12 steps,feat_22,40
+earlier,Recent 12 steps,feat_23,26
+earlier,Recent 12 steps,feat_24,8
+earlier,Recent 12 steps,feat_25,33
+earlier,Recent 12 steps,feat_26,3
+earlier,Recent 12 steps,feat_27,4
+earlier,Recent 12 steps,feat_28,0
+earlier,Recent 12 steps,feat_29,5
+earlier,Recent 12 steps,feat_30,0
+earlier,Recent 12 steps,feat_31,3
+earlier,Recent 12 steps,feat_32,0
+earlier,Recent 12 steps,feat_33,0
+earlier,Recent 12 steps,feat_34,3
+earlier,Recent 12 steps,feat_35,25
+earlier,Recent 12 steps,feat_36,0
+earlier,Recent 12 steps,feat_37,14
+earlier,Recent 12 steps,feat_38,0
+earlier,Recent 12 steps,feat_39,0
+earlier,Recent 12 steps,feat_40,2
+earlier,Recent 12 steps,feat_41,47
+earlier,Recent 12 steps,feat_42,4
+earlier,Recent 12 steps,feat_43,60
+earlier,Recent 12 steps,feat_44,9
+earlier,Recent 12 steps,feat_45,1
+earlier,Recent 12 steps,feat_46,1
+earlier,Recent 12 steps,feat_47,83
+earlier,Recent 12 steps,feat_48,1
+earlier,Recent 12 steps,feat_49,5
+earlier,Recent 12 steps,feat_50,0
+earlier,Recent 12 steps,feat_51,0
+earlier,Recent 12 steps,feat_52,48
+earlier,Recent 12 steps,feat_53,105
+earlier,Recent 12 steps,feat_54,11
+earlier,Recent 12 steps,feat_55,41
+earlier,Recent 12 steps,feat_56,0
+earlier,Recent 12 steps,feat_57,7
+earlier,Recent 12 steps,feat_58,116
+earlier,Recent 12 steps,feat_59,47
+earlier,Recent 12 steps,feat_60,6
+earlier,Recent 12 steps,feat_61,9
+earlier,Recent 12 steps,feat_62,12
+earlier,Recent 12 steps,feat_63,0
+earlier,Recent 12 steps,feat_64,39
+earlier,Recent 12 steps,feat_65,3
+earlier,Recent 12 steps,feat_66,1
+earlier,Recent 12 steps,feat_67,2
+earlier,Recent 12 steps,feat_68,0
+earlier,Recent 12 steps,feat_69,0
+earlier,Recent 12 steps,feat_70,0
+earlier,Recent 12 steps,feat_71,12
+earlier,Recent 12 steps,feat_72,6
+earlier,Recent 12 steps,feat_73,0
+earlier,Recent 12 steps,feat_74,0
+earlier,Recent 12 steps,feat_75,0
+earlier,Recent 12 steps,feat_76,28
+earlier,Recent 12 steps,feat_77,34
+earlier,Recent 12 steps,feat_78,5
+earlier,Recent 12 steps,feat_79,5
+earlier,Recent 12 steps,feat_80,58
+earlier,Recent 12 steps,feat_81,0
+earlier,Recent 12 steps,feat_82,3
+earlier,Recent 12 steps,feat_83,12
+earlier,Recent 12 steps,feat_84,0
+earlier,Recent 12 steps,feat_85,25
+earlier,Recent 12 steps,feat_86,0
+earlier,Recent 12 steps,feat_87,0
+earlier,Recent 12 steps,feat_88,36
+earlier,Recent 12 steps,feat_89,71
+earlier,Recent 12 steps,feat_90,85
+earlier,Recent 12 steps,feat_91,29
+earlier,Recent 12 steps,feat_92,19
+earlier,Recent 12 steps,feat_93,0
+earlier,Recent 12 steps,feat_94,23
+earlier,Recent 12 steps,feat_95,45
+earlier,Recent 12 steps,feat_96,5
+earlier,Recent 12 steps,feat_97,24
+earlier,Recent 12 steps,feat_98,0
+earlier,Recent 12 steps,feat_99,2
+earlier,Recent 12 steps,feat_100,30
+earlier,Recent 12 steps,feat_101,7
+earlier,Recent 12 steps,feat_102,83
+earlier,Recent 12 steps,feat_103,13
+earlier,Recent 12 steps,feat_104,22
+earlier,Recent 12 steps,feat_105,14
+earlier,Recent 12 steps,feat_106,12
+earlier,Recent 12 steps,feat_107,22
+earlier,Recent 12 steps,feat_108,2
+earlier,Recent 12 steps,feat_109,10
+earlier,Recent 12 steps,feat_110,17
+earlier,Recent 12 steps,feat_111,0
+earlier,Recent 12 steps,feat_112,6
+earlier,Recent 12 steps,feat_113,3
+earlier,Recent 12 steps,feat_114,5
+earlier,Recent 12 steps,feat_115,0
+earlier,Recent 12 steps,feat_116,1
+earlier,Recent 12 steps,feat_117,0
+earlier,Recent 12 steps,feat_118,1
+earlier,Recent 12 steps,feat_119,10
+earlier,Recent 12 steps,feat_120,0
+earlier,Recent 12 steps,feat_121,20
+earlier,Recent 12 steps,feat_122,10
+earlier,Recent 12 steps,feat_123,4
+earlier,Recent 12 steps,feat_124,3
+earlier,Recent 12 steps,feat_125,12
+earlier,Recent 12 steps,feat_126,0
+earlier,Recent 12 steps,feat_127,17
+earlier,Recent 12 steps,feat_128,1
+earlier,Recent 12 steps,feat_129,0
+earlier,Recent 12 steps,feat_130,28
+earlier,Recent 12 steps,feat_131,12
+earlier,Recent 12 steps,feat_132,74
+earlier,Recent 12 steps,feat_133,29
+earlier,Recent 12 steps,feat_134,1
+earlier,Recent 12 steps,feat_135,0
+earlier,Recent 12 steps,feat_136,32
+earlier,Recent 12 steps,feat_137,22
+earlier,Recent 12 steps,feat_138,79
+earlier,Recent 12 steps,feat_139,24
+earlier,Recent 12 steps,feat_140,1
+earlier,Recent 12 steps,feat_141,0
+earlier,Recent 12 steps,feat_142,111
+earlier,Recent 12 steps,feat_143,6
+earlier,Recent 12 steps,feat_144,5
+earlier,Recent 12 steps,feat_145,14
+earlier,Recent 12 steps,feat_146,2
+earlier,Recent 12 steps,feat_147,0
+earlier,Recent 12 steps,feat_148,5
+earlier,Recent 12 steps,feat_149,0
+earlier,Recent 12 steps,feat_150,10
+earlier,Recent 12 steps,feat_151,3
+earlier,Recent 12 steps,feat_152,11
+earlier,Recent 12 steps,feat_153,0
+earlier,Recent 12 steps,feat_154,56
+earlier,Recent 12 steps,feat_155,3
+earlier,Recent 12 steps,feat_156,1
+earlier,Recent 12 steps,feat_157,7
+earlier,Recent 12 steps,feat_158,21
+earlier,Recent 12 steps,feat_159,1
+earlier,Recent 12 steps,feat_160,0
+earlier,Recent 12 steps,feat_161,6
+earlier,Recent 12 steps,feat_162,9
+earlier,Recent 12 steps,feat_163,29
+earlier,Recent 12 steps,feat_164,12
+earlier,Recent 12 steps,feat_165,0
+earlier,With time_step,feat_1,56
+earlier,With time_step,feat_2,298
+earlier,With time_step,feat_3,57
+earlier,With time_step,feat_4,7
+earlier,With time_step,feat_5,31
+earlier,With time_step,feat_6,24
+earlier,With time_step,feat_7,0
+earlier,With time_step,feat_8,63
+earlier,With time_step,feat_9,6
+earlier,With time_step,feat_10,0
+earlier,With time_step,feat_11,26
+earlier,With time_step,feat_12,10
+earlier,With time_step,feat_13,1
+earlier,With time_step,feat_14,0
+earlier,With time_step,feat_15,0
+earlier,With time_step,feat_16,49
+earlier,With time_step,feat_17,12
+earlier,With time_step,feat_18,9
+earlier,With time_step,feat_19,15
+earlier,With time_step,feat_20,3
+earlier,With time_step,feat_21,0
+earlier,With time_step,feat_22,21
+earlier,With time_step,feat_23,18
+earlier,With time_step,feat_24,13
+earlier,With time_step,feat_25,18
+earlier,With time_step,feat_26,2
+earlier,With time_step,feat_27,0
+earlier,With time_step,feat_28,0
+earlier,With time_step,feat_29,3
+earlier,With time_step,feat_30,0
+earlier,With time_step,feat_31,3
+earlier,With time_step,feat_32,0
+earlier,With time_step,feat_33,0
+earlier,With time_step,feat_34,0
+earlier,With time_step,feat_35,16
+earlier,With time_step,feat_36,0
+earlier,With time_step,feat_37,11
+earlier,With time_step,feat_38,0
+earlier,With time_step,feat_39,0
+earlier,With time_step,feat_40,3
+earlier,With time_step,feat_41,46
+earlier,With time_step,feat_42,4
+earlier,With time_step,feat_43,12
+earlier,With time_step,feat_44,14
+earlier,With time_step,feat_45,0
+earlier,With time_step,feat_46,5
+earlier,With time_step,feat_47,68
+earlier,With time_step,feat_48,0
+earlier,With time_step,feat_49,22
+earlier,With time_step,feat_50,0
+earlier,With time_step,feat_51,0
+earlier,With time_step,feat_52,46
+earlier,With time_step,feat_53,73
+earlier,With time_step,feat_54,0
+earlier,With time_step,feat_55,27
+earlier,With time_step,feat_56,1
+earlier,With time_step,feat_57,0
+earlier,With time_step,feat_58,64
+earlier,With time_step,feat_59,37
+earlier,With time_step,feat_60,5
+earlier,With time_step,feat_61,5
+earlier,With time_step,feat_62,1
+earlier,With time_step,feat_63,0
+earlier,With time_step,feat_64,24
+earlier,With time_step,feat_65,10
+earlier,With time_step,feat_66,0
+earlier,With time_step,feat_67,5
+earlier,With time_step,feat_68,0
+earlier,With time_step,feat_69,0
+earlier,With time_step,feat_70,8
+earlier,With time_step,feat_71,0
+earlier,With time_step,feat_72,1
+earlier,With time_step,feat_73,0
+earlier,With time_step,feat_74,0
+earlier,With time_step,feat_75,0
+earlier,With time_step,feat_76,34
+earlier,With time_step,feat_77,28
+earlier,With time_step,feat_78,3
+earlier,With time_step,feat_79,2
+earlier,With time_step,feat_80,48
+earlier,With time_step,feat_81,1
+earlier,With time_step,feat_82,4
+earlier,With time_step,feat_83,19
+earlier,With time_step,feat_84,1
+earlier,With time_step,feat_85,12
+earlier,With time_step,feat_86,1
+earlier,With time_step,feat_87,0
+earlier,With time_step,feat_88,6
+earlier,With time_step,feat_89,34
+earlier,With time_step,feat_90,51
+earlier,With time_step,feat_91,18
+earlier,With time_step,feat_92,6
+earlier,With time_step,feat_93,0
+earlier,With time_step,feat_94,24
+earlier,With time_step,feat_95,17
+earlier,With time_step,feat_96,6
+earlier,With time_step,feat_97,1
+earlier,With time_step,feat_98,7
+earlier,With time_step,feat_99,0
+earlier,With time_step,feat_100,27
+earlier,With time_step,feat_101,22
+earlier,With time_step,feat_102,51
+earlier,With time_step,feat_103,22
+earlier,With time_step,feat_104,1
+earlier,With time_step,feat_105,5
+earlier,With time_step,feat_106,10
+earlier,With time_step,feat_107,19
+earlier,With time_step,feat_108,3
+earlier,With time_step,feat_109,10
+earlier,With time_step,feat_110,2
+earlier,With time_step,feat_111,0
+earlier,With time_step,feat_112,1
+earlier,With time_step,feat_113,3
+earlier,With time_step,feat_114,0
+earlier,With time_step,feat_115,8
+earlier,With time_step,feat_116,0
+earlier,With time_step,feat_117,0
+earlier,With time_step,feat_118,0
+earlier,With time_step,feat_119,13
+earlier,With time_step,feat_120,4
+earlier,With time_step,feat_121,9
+earlier,With time_step,feat_122,3
+earlier,With time_step,feat_123,2
+earlier,With time_step,feat_124,4
+earlier,With time_step,feat_125,0
+earlier,With time_step,feat_126,1
+earlier,With time_step,feat_127,3
+earlier,With time_step,feat_128,3
+earlier,With time_step,feat_129,0
+earlier,With time_step,feat_130,16
+earlier,With time_step,feat_131,4
+earlier,With time_step,feat_132,57
+earlier,With time_step,feat_133,11
+earlier,With time_step,feat_134,4
+earlier,With time_step,feat_135,0
+earlier,With time_step,feat_136,14
+earlier,With time_step,feat_137,18
+earlier,With time_step,feat_138,61
+earlier,With time_step,feat_139,35
+earlier,With time_step,feat_140,1
+earlier,With time_step,feat_141,0
+earlier,With time_step,feat_142,79
+earlier,With time_step,feat_143,2
+earlier,With time_step,feat_144,14
+earlier,With time_step,feat_145,4
+earlier,With time_step,feat_146,0
+earlier,With time_step,feat_147,0
+earlier,With time_step,feat_148,0
+earlier,With time_step,feat_149,1
+earlier,With time_step,feat_150,0
+earlier,With time_step,feat_151,2
+earlier,With time_step,feat_152,7
+earlier,With time_step,feat_153,1
+earlier,With time_step,feat_154,27
+earlier,With time_step,feat_155,4
+earlier,With time_step,feat_156,0
+earlier,With time_step,feat_157,9
+earlier,With time_step,feat_158,9
+earlier,With time_step,feat_159,0
+earlier,With time_step,feat_160,2
+earlier,With time_step,feat_161,10
+earlier,With time_step,feat_162,1
+earlier,With time_step,feat_163,23
+earlier,With time_step,feat_164,1
+earlier,With time_step,feat_165,0
+earlier,With time_step,time_step,1
+later,Full features,feat_1,17
+later,Full features,feat_2,388
+later,Full features,feat_3,33
+later,Full features,feat_4,19
+later,Full features,feat_5,39
+later,Full features,feat_6,9
+later,Full features,feat_7,0
+later,Full features,feat_8,61
+later,Full features,feat_9,11
+later,Full features,feat_10,7
+later,Full features,feat_11,11
+later,Full features,feat_12,5
+later,Full features,feat_13,6
+later,Full features,feat_14,0
+later,Full features,feat_15,0
+later,Full features,feat_16,68
+later,Full features,feat_17,1
+later,Full features,feat_18,20
+later,Full features,feat_19,2
+later,Full features,feat_20,6
+later,Full features,feat_21,0
+later,Full features,feat_22,34
+later,Full features,feat_23,29
+later,Full features,feat_24,8
+later,Full features,feat_25,18
+later,Full features,feat_26,0
+later,Full features,feat_27,1
+later,Full features,feat_28,0
+later,Full features,feat_29,0
+later,Full features,feat_30,0
+later,Full features,feat_31,0
+later,Full features,feat_32,0
+later,Full features,feat_33,0
+later,Full features,feat_34,3
+later,Full features,feat_35,26
+later,Full features,feat_36,0
+later,Full features,feat_37,13
+later,Full features,feat_38,0
+later,Full features,feat_39,0
+later,Full features,feat_40,0
+later,Full features,feat_41,54
+later,Full features,feat_42,4
+later,Full features,feat_43,15
+later,Full features,feat_44,5
+later,Full features,feat_45,0
+later,Full features,feat_46,0
+later,Full features,feat_47,78
+later,Full features,feat_48,2
+later,Full features,feat_49,31
+later,Full features,feat_50,0
+later,Full features,feat_51,0
+later,Full features,feat_52,33
+later,Full features,feat_53,113
+later,Full features,feat_54,15
+later,Full features,feat_55,25
+later,Full features,feat_56,7
+later,Full features,feat_57,2
+later,Full features,feat_58,92
+later,Full features,feat_59,30
+later,Full features,feat_60,4
+later,Full features,feat_61,8
+later,Full features,feat_62,1
+later,Full features,feat_63,0
+later,Full features,feat_64,4
+later,Full features,feat_65,36
+later,Full features,feat_66,0
+later,Full features,feat_67,5
+later,Full features,feat_68,0
+later,Full features,feat_69,0
+later,Full features,feat_70,0
+later,Full features,feat_71,23
+later,Full features,feat_72,0
+later,Full features,feat_73,0
+later,Full features,feat_74,3
+later,Full features,feat_75,0
+later,Full features,feat_76,23
+later,Full features,feat_77,17
+later,Full features,feat_78,0
+later,Full features,feat_79,5
+later,Full features,feat_80,51
+later,Full features,feat_81,1
+later,Full features,feat_82,1
+later,Full features,feat_83,6
+later,Full features,feat_84,1
+later,Full features,feat_85,7
+later,Full features,feat_86,0
+later,Full features,feat_87,1
+later,Full features,feat_88,11
+later,Full features,feat_89,19
+later,Full features,feat_90,76
+later,Full features,feat_91,17
+later,Full features,feat_92,7
+later,Full features,feat_93,0
+later,Full features,feat_94,40
+later,Full features,feat_95,8
+later,Full features,feat_96,7
+later,Full features,feat_97,2
+later,Full features,feat_98,0
+later,Full features,feat_99,2
+later,Full features,feat_100,65
+later,Full features,feat_101,40
+later,Full features,feat_102,44
+later,Full features,feat_103,11
+later,Full features,feat_104,5
+later,Full features,feat_105,0
+later,Full features,feat_106,19
+later,Full features,feat_107,15
+later,Full features,feat_108,5
+later,Full features,feat_109,16
+later,Full features,feat_110,0
+later,Full features,feat_111,1
+later,Full features,feat_112,6
+later,Full features,feat_113,0
+later,Full features,feat_114,3
+later,Full features,feat_115,7
+later,Full features,feat_116,0
+later,Full features,feat_117,0
+later,Full features,feat_118,0
+later,Full features,feat_119,15
+later,Full features,feat_120,4
+later,Full features,feat_121,8
+later,Full features,feat_122,0
+later,Full features,feat_123,0
+later,Full features,feat_124,12
+later,Full features,feat_125,17
+later,Full features,feat_126,4
+later,Full features,feat_127,14
+later,Full features,feat_128,2
+later,Full features,feat_129,3
+later,Full features,feat_130,12
+later,Full features,feat_131,15
+later,Full features,feat_132,36
+later,Full features,feat_133,6
+later,Full features,feat_134,2
+later,Full features,feat_135,0
+later,Full features,feat_136,40
+later,Full features,feat_137,22
+later,Full features,feat_138,61
+later,Full features,feat_139,33
+later,Full features,feat_140,1
+later,Full features,feat_141,0
+later,Full features,feat_142,61
+later,Full features,feat_143,15
+later,Full features,feat_144,18
+later,Full features,feat_145,8
+later,Full features,feat_146,12
+later,Full features,feat_147,0
+later,Full features,feat_148,9
+later,Full features,feat_149,5
+later,Full features,feat_150,3
+later,Full features,feat_151,2
+later,Full features,feat_152,14
+later,Full features,feat_153,0
+later,Full features,feat_154,34
+later,Full features,feat_155,8
+later,Full features,feat_156,2
+later,Full features,feat_157,2
+later,Full features,feat_158,22
+later,Full features,feat_159,1
+later,Full features,feat_160,0
+later,Full features,feat_161,16
+later,Full features,feat_162,15
+later,Full features,feat_163,70
+later,Full features,feat_164,22
+later,Full features,feat_165,0
+later,Without feat_2,feat_1,13
+later,Without feat_2,feat_3,38
+later,Without feat_2,feat_4,18
+later,Without feat_2,feat_5,54
+later,Without feat_2,feat_6,9
+later,Without feat_2,feat_7,0
+later,Without feat_2,feat_8,71
+later,Without feat_2,feat_9,15
+later,Without feat_2,feat_10,10
+later,Without feat_2,feat_11,23
+later,Without feat_2,feat_12,4
+later,Without feat_2,feat_13,4
+later,Without feat_2,feat_14,0
+later,Without feat_2,feat_15,0
+later,Without feat_2,feat_16,88
+later,Without feat_2,feat_17,7
+later,Without feat_2,feat_18,31
+later,Without feat_2,feat_19,1
+later,Without feat_2,feat_20,8
+later,Without feat_2,feat_21,0
+later,Without feat_2,feat_22,28
+later,Without feat_2,feat_23,30
+later,Without feat_2,feat_24,1
+later,Without feat_2,feat_25,19
+later,Without feat_2,feat_26,3
+later,Without feat_2,feat_27,1
+later,Without feat_2,feat_28,0
+later,Without feat_2,feat_29,0
+later,Without feat_2,feat_30,0
+later,Without feat_2,feat_31,1
+later,Without feat_2,feat_32,0
+later,Without feat_2,feat_33,0
+later,Without feat_2,feat_34,1
+later,Without feat_2,feat_35,24
+later,Without feat_2,feat_36,0
+later,Without feat_2,feat_37,12
+later,Without feat_2,feat_38,0
+later,Without feat_2,feat_39,0
+later,Without feat_2,feat_40,8
+later,Without feat_2,feat_41,49
+later,Without feat_2,feat_42,2
+later,Without feat_2,feat_43,17
+later,Without feat_2,feat_44,0
+later,Without feat_2,feat_45,2
+later,Without feat_2,feat_46,0
+later,Without feat_2,feat_47,55
+later,Without feat_2,feat_48,2
+later,Without feat_2,feat_49,36
+later,Without feat_2,feat_50,0
+later,Without feat_2,feat_51,0
+later,Without feat_2,feat_52,63
+later,Without feat_2,feat_53,130
+later,Without feat_2,feat_54,8
+later,Without feat_2,feat_55,42
+later,Without feat_2,feat_56,3
+later,Without feat_2,feat_57,0
+later,Without feat_2,feat_58,80
+later,Without feat_2,feat_59,52
+later,Without feat_2,feat_60,10
+later,Without feat_2,feat_61,12
+later,Without feat_2,feat_62,1
+later,Without feat_2,feat_63,0
+later,Without feat_2,feat_64,17
+later,Without feat_2,feat_65,36
+later,Without feat_2,feat_66,3
+later,Without feat_2,feat_67,7
+later,Without feat_2,feat_68,0
+later,Without feat_2,feat_69,0
+later,Without feat_2,feat_70,0
+later,Without feat_2,feat_71,22
+later,Without feat_2,feat_72,0
+later,Without feat_2,feat_73,2
+later,Without feat_2,feat_74,3
+later,Without feat_2,feat_75,0
+later,Without feat_2,feat_76,17
+later,Without feat_2,feat_77,31
+later,Without feat_2,feat_78,3
+later,Without feat_2,feat_79,5
+later,Without feat_2,feat_80,69
+later,Without feat_2,feat_81,0
+later,Without feat_2,feat_82,0
+later,Without feat_2,feat_83,13
+later,Without feat_2,feat_84,1
+later,Without feat_2,feat_85,10
+later,Without feat_2,feat_86,6
+later,Without feat_2,feat_87,0
+later,Without feat_2,feat_88,10
+later,Without feat_2,feat_89,29
+later,Without feat_2,feat_90,53
+later,Without feat_2,feat_91,13
+later,Without feat_2,feat_92,1
+later,Without feat_2,feat_93,1
+later,Without feat_2,feat_94,35
+later,Without feat_2,feat_95,13
+later,Without feat_2,feat_96,6
+later,Without feat_2,feat_97,4
+later,Without feat_2,feat_98,1
+later,Without feat_2,feat_99,0
+later,Without feat_2,feat_100,85
+later,Without feat_2,feat_101,9
+later,Without feat_2,feat_102,49
+later,Without feat_2,feat_103,18
+later,Without feat_2,feat_104,7
+later,Without feat_2,feat_105,0
+later,Without feat_2,feat_106,32
+later,Without feat_2,feat_107,20
+later,Without feat_2,feat_108,2
+later,Without feat_2,feat_109,30
+later,Without feat_2,feat_110,0
+later,Without feat_2,feat_111,0
+later,Without feat_2,feat_112,6
+later,Without feat_2,feat_113,1
+later,Without feat_2,feat_114,3
+later,Without feat_2,feat_115,4
+later,Without feat_2,feat_116,0
+later,Without feat_2,feat_117,0
+later,Without feat_2,feat_118,0
+later,Without feat_2,feat_119,11
+later,Without feat_2,feat_120,5
+later,Without feat_2,feat_121,6
+later,Without feat_2,feat_122,2
+later,Without feat_2,feat_123,1
+later,Without feat_2,feat_124,24
+later,Without feat_2,feat_125,23
+later,Without feat_2,feat_126,3
+later,Without feat_2,feat_127,13
+later,Without feat_2,feat_128,1
+later,Without feat_2,feat_129,0
+later,Without feat_2,feat_130,11
+later,Without feat_2,feat_131,23
+later,Without feat_2,feat_132,41
+later,Without feat_2,feat_133,13
+later,Without feat_2,feat_134,0
+later,Without feat_2,feat_135,1
+later,Without feat_2,feat_136,39
+later,Without feat_2,feat_137,35
+later,Without feat_2,feat_138,73
+later,Without feat_2,feat_139,19
+later,Without feat_2,feat_140,2
+later,Without feat_2,feat_141,0
+later,Without feat_2,feat_142,144
+later,Without feat_2,feat_143,53
+later,Without feat_2,feat_144,17
+later,Without feat_2,feat_145,10
+later,Without feat_2,feat_146,32
+later,Without feat_2,feat_147,0
+later,Without feat_2,feat_148,7
+later,Without feat_2,feat_149,2
+later,Without feat_2,feat_150,2
+later,Without feat_2,feat_151,2
+later,Without feat_2,feat_152,20
+later,Without feat_2,feat_153,0
+later,Without feat_2,feat_154,51
+later,Without feat_2,feat_155,12
+later,Without feat_2,feat_156,10
+later,Without feat_2,feat_157,7
+later,Without feat_2,feat_158,39
+later,Without feat_2,feat_159,1
+later,Without feat_2,feat_160,4
+later,Without feat_2,feat_161,22
+later,Without feat_2,feat_162,14
+later,Without feat_2,feat_163,62
+later,Without feat_2,feat_164,50
+later,Without feat_2,feat_165,0
+later,Recent 12 steps,feat_1,6
+later,Recent 12 steps,feat_2,248
+later,Recent 12 steps,feat_3,104
+later,Recent 12 steps,feat_4,12
+later,Recent 12 steps,feat_5,8
+later,Recent 12 steps,feat_6,0
+later,Recent 12 steps,feat_7,2
+later,Recent 12 steps,feat_8,44
+later,Recent 12 steps,feat_9,7
+later,Recent 12 steps,feat_10,4
+later,Recent 12 steps,feat_11,8
+later,Recent 12 steps,feat_12,18
+later,Recent 12 steps,feat_13,11
+later,Recent 12 steps,feat_14,0
+later,Recent 12 steps,feat_15,0
+later,Recent 12 steps,feat_16,60
+later,Recent 12 steps,feat_17,8
+later,Recent 12 steps,feat_18,26
+later,Recent 12 steps,feat_19,1
+later,Recent 12 steps,feat_20,2
+later,Recent 12 steps,feat_21,0
+later,Recent 12 steps,feat_22,76
+later,Recent 12 steps,feat_23,34
+later,Recent 12 steps,feat_24,5
+later,Recent 12 steps,feat_25,5
+later,Recent 12 steps,feat_26,0
+later,Recent 12 steps,feat_27,12
+later,Recent 12 steps,feat_28,4
+later,Recent 12 steps,feat_29,13
+later,Recent 12 steps,feat_30,0
+later,Recent 12 steps,feat_31,2
+later,Recent 12 steps,feat_32,0
+later,Recent 12 steps,feat_33,0
+later,Recent 12 steps,feat_34,0
+later,Recent 12 steps,feat_35,0
+later,Recent 12 steps,feat_36,0
+later,Recent 12 steps,feat_37,0
+later,Recent 12 steps,feat_38,1
+later,Recent 12 steps,feat_39,0
+later,Recent 12 steps,feat_40,4
+later,Recent 12 steps,feat_41,26
+later,Recent 12 steps,feat_42,1
+later,Recent 12 steps,feat_43,52
+later,Recent 12 steps,feat_44,10
+later,Recent 12 steps,feat_45,1
+later,Recent 12 steps,feat_46,3
+later,Recent 12 steps,feat_47,6
+later,Recent 12 steps,feat_48,6
+later,Recent 12 steps,feat_49,1
+later,Recent 12 steps,feat_50,1
+later,Recent 12 steps,feat_51,0
+later,Recent 12 steps,feat_52,27
+later,Recent 12 steps,feat_53,125
+later,Recent 12 steps,feat_54,26
+later,Recent 12 steps,feat_55,31
+later,Recent 12 steps,feat_56,13
+later,Recent 12 steps,feat_57,2
+later,Recent 12 steps,feat_58,61
+later,Recent 12 steps,feat_59,29
+later,Recent 12 steps,feat_60,18
+later,Recent 12 steps,feat_61,16
+later,Recent 12 steps,feat_62,5
+later,Recent 12 steps,feat_63,0
+later,Recent 12 steps,feat_64,3
+later,Recent 12 steps,feat_65,7
+later,Recent 12 steps,feat_66,2
+later,Recent 12 steps,feat_67,12
+later,Recent 12 steps,feat_68,1
+later,Recent 12 steps,feat_69,0
+later,Recent 12 steps,feat_70,0
+later,Recent 12 steps,feat_71,33
+later,Recent 12 steps,feat_72,18
+later,Recent 12 steps,feat_73,5
+later,Recent 12 steps,feat_74,17
+later,Recent 12 steps,feat_75,2
+later,Recent 12 steps,feat_76,4
+later,Recent 12 steps,feat_77,15
+later,Recent 12 steps,feat_78,9
+later,Recent 12 steps,feat_79,14
+later,Recent 12 steps,feat_80,27
+later,Recent 12 steps,feat_81,1
+later,Recent 12 steps,feat_82,0
+later,Recent 12 steps,feat_83,30
+later,Recent 12 steps,feat_84,5
+later,Recent 12 steps,feat_85,13
+later,Recent 12 steps,feat_86,1
+later,Recent 12 steps,feat_87,0
+later,Recent 12 steps,feat_88,53
+later,Recent 12 steps,feat_89,79
+later,Recent 12 steps,feat_90,94
+later,Recent 12 steps,feat_91,40
+later,Recent 12 steps,feat_92,6
+later,Recent 12 steps,feat_93,2
+later,Recent 12 steps,feat_94,101
+later,Recent 12 steps,feat_95,45
+later,Recent 12 steps,feat_96,13
+later,Recent 12 steps,feat_97,9
+later,Recent 12 steps,feat_98,1
+later,Recent 12 steps,feat_99,3
+later,Recent 12 steps,feat_100,44
+later,Recent 12 steps,feat_101,42
+later,Recent 12 steps,feat_102,89
+later,Recent 12 steps,feat_103,9
+later,Recent 12 steps,feat_104,23
+later,Recent 12 steps,feat_105,7
+later,Recent 12 steps,feat_106,63
+later,Recent 12 steps,feat_107,16
+later,Recent 12 steps,feat_108,3
+later,Recent 12 steps,feat_109,23
+later,Recent 12 steps,feat_110,8
+later,Recent 12 steps,feat_111,3
+later,Recent 12 steps,feat_112,1
+later,Recent 12 steps,feat_113,1
+later,Recent 12 steps,feat_114,9
+later,Recent 12 steps,feat_115,27
+later,Recent 12 steps,feat_116,1
+later,Recent 12 steps,feat_117,1
+later,Recent 12 steps,feat_118,3
+later,Recent 12 steps,feat_119,10
+later,Recent 12 steps,feat_120,3
+later,Recent 12 steps,feat_121,12
+later,Recent 12 steps,feat_122,0
+later,Recent 12 steps,feat_123,3
+later,Recent 12 steps,feat_124,3
+later,Recent 12 steps,feat_125,6
+later,Recent 12 steps,feat_126,0
+later,Recent 12 steps,feat_127,48
+later,Recent 12 steps,feat_128,12
+later,Recent 12 steps,feat_129,15
+later,Recent 12 steps,feat_130,18
+later,Recent 12 steps,feat_131,18
+later,Recent 12 steps,feat_132,26
+later,Recent 12 steps,feat_133,9
+later,Recent 12 steps,feat_134,11
+later,Recent 12 steps,feat_135,0
+later,Recent 12 steps,feat_136,26
+later,Recent 12 steps,feat_137,23
+later,Recent 12 steps,feat_138,60
+later,Recent 12 steps,feat_139,61
+later,Recent 12 steps,feat_140,12
+later,Recent 12 steps,feat_141,0
+later,Recent 12 steps,feat_142,44
+later,Recent 12 steps,feat_143,16
+later,Recent 12 steps,feat_144,16
+later,Recent 12 steps,feat_145,15
+later,Recent 12 steps,feat_146,6
+later,Recent 12 steps,feat_147,0
+later,Recent 12 steps,feat_148,19
+later,Recent 12 steps,feat_149,18
+later,Recent 12 steps,feat_150,27
+later,Recent 12 steps,feat_151,16
+later,Recent 12 steps,feat_152,30
+later,Recent 12 steps,feat_153,1
+later,Recent 12 steps,feat_154,36
+later,Recent 12 steps,feat_155,12
+later,Recent 12 steps,feat_156,10
+later,Recent 12 steps,feat_157,16
+later,Recent 12 steps,feat_158,19
+later,Recent 12 steps,feat_159,20
+later,Recent 12 steps,feat_160,0
+later,Recent 12 steps,feat_161,7
+later,Recent 12 steps,feat_162,3
+later,Recent 12 steps,feat_163,72
+later,Recent 12 steps,feat_164,28
+later,Recent 12 steps,feat_165,0
+later,With time_step,feat_1,17
+later,With time_step,feat_2,388
+later,With time_step,feat_3,33
+later,With time_step,feat_4,19
+later,With time_step,feat_5,39
+later,With time_step,feat_6,9
+later,With time_step,feat_7,0
+later,With time_step,feat_8,61
+later,With time_step,feat_9,11
+later,With time_step,feat_10,7
+later,With time_step,feat_11,11
+later,With time_step,feat_12,5
+later,With time_step,feat_13,6
+later,With time_step,feat_14,0
+later,With time_step,feat_15,0
+later,With time_step,feat_16,68
+later,With time_step,feat_17,1
+later,With time_step,feat_18,20
+later,With time_step,feat_19,2
+later,With time_step,feat_20,6
+later,With time_step,feat_21,0
+later,With time_step,feat_22,34
+later,With time_step,feat_23,29
+later,With time_step,feat_24,8
+later,With time_step,feat_25,18
+later,With time_step,feat_26,0
+later,With time_step,feat_27,1
+later,With time_step,feat_28,0
+later,With time_step,feat_29,0
+later,With time_step,feat_30,0
+later,With time_step,feat_31,0
+later,With time_step,feat_32,0
+later,With time_step,feat_33,0
+later,With time_step,feat_34,3
+later,With time_step,feat_35,26
+later,With time_step,feat_36,0
+later,With time_step,feat_37,13
+later,With time_step,feat_38,0
+later,With time_step,feat_39,0
+later,With time_step,feat_40,0
+later,With time_step,feat_41,54
+later,With time_step,feat_42,4
+later,With time_step,feat_43,15
+later,With time_step,feat_44,5
+later,With time_step,feat_45,0
+later,With time_step,feat_46,0
+later,With time_step,feat_47,78
+later,With time_step,feat_48,2
+later,With time_step,feat_49,31
+later,With time_step,feat_50,0
+later,With time_step,feat_51,0
+later,With time_step,feat_52,33
+later,With time_step,feat_53,113
+later,With time_step,feat_54,15
+later,With time_step,feat_55,25
+later,With time_step,feat_56,7
+later,With time_step,feat_57,2
+later,With time_step,feat_58,92
+later,With time_step,feat_59,30
+later,With time_step,feat_60,4
+later,With time_step,feat_61,8
+later,With time_step,feat_62,1
+later,With time_step,feat_63,0
+later,With time_step,feat_64,4
+later,With time_step,feat_65,36
+later,With time_step,feat_66,0
+later,With time_step,feat_67,5
+later,With time_step,feat_68,0
+later,With time_step,feat_69,0
+later,With time_step,feat_70,0
+later,With time_step,feat_71,23
+later,With time_step,feat_72,0
+later,With time_step,feat_73,0
+later,With time_step,feat_74,3
+later,With time_step,feat_75,0
+later,With time_step,feat_76,23
+later,With time_step,feat_77,17
+later,With time_step,feat_78,0
+later,With time_step,feat_79,5
+later,With time_step,feat_80,51
+later,With time_step,feat_81,1
+later,With time_step,feat_82,1
+later,With time_step,feat_83,6
+later,With time_step,feat_84,1
+later,With time_step,feat_85,7
+later,With time_step,feat_86,0
+later,With time_step,feat_87,1
+later,With time_step,feat_88,11
+later,With time_step,feat_89,19
+later,With time_step,feat_90,76
+later,With time_step,feat_91,17
+later,With time_step,feat_92,7
+later,With time_step,feat_93,0
+later,With time_step,feat_94,40
+later,With time_step,feat_95,8
+later,With time_step,feat_96,7
+later,With time_step,feat_97,2
+later,With time_step,feat_98,0
+later,With time_step,feat_99,2
+later,With time_step,feat_100,63
+later,With time_step,feat_101,40
+later,With time_step,feat_102,44
+later,With time_step,feat_103,11
+later,With time_step,feat_104,5
+later,With time_step,feat_105,0
+later,With time_step,feat_106,19
+later,With time_step,feat_107,15
+later,With time_step,feat_108,5
+later,With time_step,feat_109,16
+later,With time_step,feat_110,0
+later,With time_step,feat_111,1
+later,With time_step,feat_112,6
+later,With time_step,feat_113,0
+later,With time_step,feat_114,3
+later,With time_step,feat_115,7
+later,With time_step,feat_116,0
+later,With time_step,feat_117,0
+later,With time_step,feat_118,0
+later,With time_step,feat_119,15
+later,With time_step,feat_120,4
+later,With time_step,feat_121,8
+later,With time_step,feat_122,0
+later,With time_step,feat_123,0
+later,With time_step,feat_124,12
+later,With time_step,feat_125,17
+later,With time_step,feat_126,4
+later,With time_step,feat_127,14
+later,With time_step,feat_128,2
+later,With time_step,feat_129,3
+later,With time_step,feat_130,12
+later,With time_step,feat_131,15
+later,With time_step,feat_132,36
+later,With time_step,feat_133,6
+later,With time_step,feat_134,2
+later,With time_step,feat_135,0
+later,With time_step,feat_136,40
+later,With time_step,feat_137,22
+later,With time_step,feat_138,61
+later,With time_step,feat_139,33
+later,With time_step,feat_140,1
+later,With time_step,feat_141,0
+later,With time_step,feat_142,61
+later,With time_step,feat_143,15
+later,With time_step,feat_144,18
+later,With time_step,feat_145,8
+later,With time_step,feat_146,12
+later,With time_step,feat_147,0
+later,With time_step,feat_148,9
+later,With time_step,feat_149,5
+later,With time_step,feat_150,3
+later,With time_step,feat_151,2
+later,With time_step,feat_152,14
+later,With time_step,feat_153,0
+later,With time_step,feat_154,34
+later,With time_step,feat_155,8
+later,With time_step,feat_156,2
+later,With time_step,feat_157,2
+later,With time_step,feat_158,22
+later,With time_step,feat_159,1
+later,With time_step,feat_160,0
+later,With time_step,feat_161,16
+later,With time_step,feat_162,15
+later,With time_step,feat_163,70
+later,With time_step,feat_164,22
+later,With time_step,feat_165,0
+later,With time_step,time_step,2

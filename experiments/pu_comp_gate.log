@@ -1,0 +1,19 @@
+done 7
+done 10
+done 14
+done 17
+done 21
+
+            ref      E1      E2      E3      E4      F1
+cutoff                                                
+7       0.9926  0.9919  0.9895  0.9918  0.9844  0.9929
+10      0.9847  0.9800  0.9715  0.9790  0.9658  0.9829
+14      0.9785  0.9726  0.9677  0.9710  0.9642  0.9784
+17      0.9238  0.9090  0.9042  0.8942  0.8697  0.9278
+21      0.9151  0.9052  0.8820  0.9068  0.8695  0.9153
+E1: mean gain -0.0072 | better on 0/5 | PASS False
+E2: mean gain -0.0160 | better on 0/5 | PASS False
+E3: mean gain -0.0104 | better on 0/5 | PASS False
+E4: mean gain -0.0282 | better on 0/5 | PASS False
+F1: mean gain +0.0005 | better on 3/5 | PASS False
+No candidate passes: do not submit.

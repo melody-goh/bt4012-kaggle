@@ -1,0 +1,46 @@
+{
+  "config": {
+    "hypothesis": "Reduce training variance while retaining V2's full feature set, equal training weights, and tree complexity. Avoid the large ranking change induced by feature-group specialists.",
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "parameters": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "num_leaves": 31,
+      "verbosity": -1,
+      "n_jobs": 4,
+      "subsample": 0.9,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.9
+    },
+    "v2_weight": 0.5,
+    "origins": [
+      7,
+      14,
+      21
+    ],
+    "horizon": 14,
+    "advancement_rule": "Both legacy origins (14,21) must improve pooled AUC; origin 7 must not lose more than 0.001. This is a retrospective screening rule, not proof of hidden-test gain."
+  },
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "1.25.2",
+    "pandas": "2.0.3",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.7.0"
+  },
+  "source_hashes": {
+    "test_graph_bagging.py": "edef7314453b3b98cc3282ff0f3be8684c7dd934cb0da9ae85b10c54da5aa5e4",
+    "pipeline.py": "184f11c2849c6e2ef5f93f67d060871aaf9d0f1d311cde719aa6aea7b164b4a0",
+    "graph_bagging.json": "679a851311da79dfcaaeb140c161e69265704416536cd46e63eadbcf8df61920"
+  },
+  "input_hashes": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e"
+  }
+}

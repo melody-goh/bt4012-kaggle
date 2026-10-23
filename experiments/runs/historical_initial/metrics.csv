@@ -1,0 +1,4 @@
+fold,role,model,roc_auc,average_precision,rows,positives
+historical_check_22_35,historical_check,original,0.8928504013416443,0.8054038258391454,11705,1773
+historical_check_22_35,historical_check,v7_graph,0.9016270594924221,0.8108136488956398,11705,1773
+historical_check_22_35,historical_check,regularized_graph,0.8967876654311926,0.80412850444162,11705,1773

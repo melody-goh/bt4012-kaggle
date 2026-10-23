@@ -1,0 +1,44 @@
+{
+  "config": {
+    "development_origins": [
+      7,
+      14,
+      21
+    ],
+    "confirmation_origins": [
+      10,
+      17
+    ],
+    "horizon": 14,
+    "candidate_weight": 0.25,
+    "seed": 42,
+    "candidates": {
+      "step_balanced_graph": {
+        "weighting": "inverse labelled row count per training time step, normalized to mean one"
+      }
+    },
+    "selection": "Select the fixed 75% V2 + 25% candidate blend with the highest mean development AUC gain among those with minimum gain >= -0.0005 and positive mean. Require confirmation mean gain > 0 and neither confirmation gain < -0.001. Otherwise retain V2. No blend-weight search.",
+    "rationale": "Reproduce the previously reported V16 equal-step weighting improvement under expanded validation before considering its first public submission."
+  },
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "1.25.2",
+    "pandas": "2.0.3",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.11.2",
+    "joblib": "1.4.2"
+  },
+  "sources": {
+    "prepare_next_submission.py": "642c1a92a1acd8d0ccf7e3c6d301153c95e65159d0da602dc845e08266d54bec",
+    "pipeline.py": "184f11c2849c6e2ef5f93f67d060871aaf9d0f1d311cde719aa6aea7b164b4a0",
+    "next_submission_step_balance.json": "3c82e949809ff9e5c8a8e020dd915d3b1e674292fa2a30be2be76702de94bb4a"
+  },
+  "inputs": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e",
+    "submission_v2.csv": "24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d"
+  }
+}

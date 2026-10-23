@@ -1,0 +1,14 @@
+{
+  "development_summary": {
+    "step_balanced_graph": {
+      "mean": 0.0008246638480835141,
+      "min": -8.699881131901677e-05
+    }
+  },
+  "frozen_challenger": "step_balanced_graph",
+  "confirmation_origins": [
+    10,
+    17
+  ],
+  "selection_rule": "Select the fixed 75% V2 + 25% candidate blend with the highest mean development AUC gain among those with minimum gain >= -0.0005 and positive mean. Require confirmation mean gain > 0 and neither confirmation gain < -0.001. Otherwise retain V2. No blend-weight search."
+}

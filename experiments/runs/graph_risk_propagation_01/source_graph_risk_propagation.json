@@ -1,0 +1,8 @@
+{
+  "development_origins": [7, 14, 21],
+  "confirmation_origins": [10, 17],
+  "horizon": 14,
+  "alpha": 0.25,
+  "candidates": ["upstream_probability", "downstream_probability", "undirected_probability", "undirected_logodds"],
+  "selection": "Positive mean development AUC gain, no fold loss worse than 0.001; choose highest mean gain. Confirmation requires positive mean gain and neither loss worse than 0.001. Do not tune alpha. All windows are retrospective, overlapping stress tests."
+}

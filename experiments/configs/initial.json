@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "folds": [
+    {"name": "development_8_21", "role": "development", "train_end": 7, "valid_start": 8, "valid_end": 21},
+    {"name": "historical_check_22_35", "role": "historical_check", "train_end": 21, "valid_start": 22, "valid_end": 35},
+    {"name": "legacy_15_28", "role": "legacy", "train_end": 14, "valid_start": 15, "valid_end": 28}
+  ],
+  "common_params": {"n_estimators": 300, "learning_rate": 0.03, "num_leaves": 31, "random_state": 42, "verbosity": -1, "n_jobs": 4},
+  "models": {
+    "original": {"graph": false, "params": {}},
+    "v7_graph": {"graph": true, "params": {}},
+    "regularized_graph": {"graph": true, "params": {"num_leaves": 15, "min_child_samples": 100, "reg_lambda": 10.0, "colsample_bytree": 0.8}}
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "config": {
+    "development_origins": [
+      7,
+      14,
+      21
+    ],
+    "confirmation_origins": [
+      10,
+      17
+    ],
+    "horizon": 14,
+    "alpha": 0.25,
+    "candidates": [
+      "upstream_probability",
+      "downstream_probability",
+      "undirected_probability",
+      "undirected_logodds"
+    ],
+    "selection": "Positive mean development AUC gain, no fold loss worse than 0.001; choose highest mean gain. Confirmation requires positive mean gain and neither loss worse than 0.001. Do not tune alpha. All windows are retrospective, overlapping stress tests."
+  },
+  "base_parameters": {
+    "n_estimators": 300,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "random_state": 42,
+    "verbosity": -1,
+    "n_jobs": 4
+  },
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "1.25.2",
+    "pandas": "2.0.3",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.11.2"
+  },
+  "inputs": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e",
+    "submission_v2.csv": "24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d"
+  },
+  "sources": {
+    "graph_risk_propagation.py": "a02916953578578f4f3ba83f137ea066cbb5f596e83a42676d2110337cf7bfe2",
+    "pipeline.py": "184f11c2849c6e2ef5f93f67d060871aaf9d0f1d311cde719aa6aea7b164b4a0",
+    "graph_risk_propagation.json": "3a7959c091f18dc3b36e83c4730e464cadc6ec67c764a3b9a676fc1565ad0d17"
+  }
+}

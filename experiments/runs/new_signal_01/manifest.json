@@ -1,0 +1,66 @@
+{
+  "config": {
+    "development_origins": [
+      7,
+      14,
+      21
+    ],
+    "confirmation_origins": [
+      10,
+      17
+    ],
+    "horizon": 14,
+    "candidate_weight": 0.25,
+    "catboost": {
+      "iterations": 1000,
+      "depth": 6,
+      "learning_rate": 0.04,
+      "l2_leaf_reg": 10,
+      "boosting_type": "Ordered",
+      "loss_function": "Logloss",
+      "random_seed": 42,
+      "thread_count": 4,
+      "verbose": false,
+      "allow_writing_files": false
+    },
+    "pseudo": {
+      "positive_thresholds": [
+        0.99,
+        0.995,
+        0.999
+      ],
+      "negative_thresholds": [
+        0.01,
+        0.005,
+        0.001
+      ],
+      "required_precision": 0.99,
+      "minimum_calibration_examples": 20,
+      "sample_weight": 0.2,
+      "maximum_pseudo_to_labelled_ratio_per_class": 1,
+      "calibration_steps": 3
+    },
+    "selection": "Only blends with positive mean development gain and no development loss worse than 0.001 can advance. Freeze highest mean candidate. Require both additional-cutoff gains >= -0.001 and positive mean. These overlapping windows are not pristine holdouts."
+  },
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "1.25.2",
+    "pandas": "2.0.3",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.11.2"
+  },
+  "sources": {
+    "test_new_signal.py": "3793dd47cf5a3f052ce30c5af53f1c46ec38fedbf862ecd3f02ed1248073bb17",
+    "pipeline.py": "184f11c2849c6e2ef5f93f67d060871aaf9d0f1d311cde719aa6aea7b164b4a0",
+    "new_signal.json": "e5ea3c587e257db67044a18b380217aae8c1f4e8de26ca8fe81bd3eb1d38700d"
+  },
+  "inputs": {
+    "train.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "test.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "sample_submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e",
+    "submission_v2.csv": "24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d"
+  }
+}

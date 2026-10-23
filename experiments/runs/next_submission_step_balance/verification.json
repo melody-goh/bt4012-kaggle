@@ -1,0 +1,17 @@
+{
+  "rows": 15329,
+  "columns": [
+    "index",
+    "target"
+  ],
+  "unique_indices": true,
+  "test_order_matches": true,
+  "finite_probabilities": true,
+  "probabilities_in_unit_interval": true,
+  "saved_model_replay_max_difference": 1.1102230246251565e-16,
+  "original_files_checked": 25,
+  "original_files_changed": [],
+  "mean_absolute_probability_change_vs_v2": 0.0008181794446929763,
+  "submission_sha256": "afc3ce5959fffe98f1ca5d8fdd150629887660a14f50577c7890e74fc670c0fc",
+  "deliverable": "/Users/melodygoh/bt4012_kaggle/experiments/submissions/submission_next_step_balanced_graph.csv"
+}
