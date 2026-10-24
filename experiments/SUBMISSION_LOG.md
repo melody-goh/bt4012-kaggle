@@ -230,3 +230,9 @@ Evidence: adding the R15 view raised v19 -> v20 (+0.0003); adding weak v3 lowere
 - Z9 = logit avg(v12, R20, R15, R10, v7, X1_hl7), equal sixths: both additions together.
 Order: Z8 first; then Z5; slot 3 = Z9 if either Z8 or Z5 beats v20, else Y4 (near-twin). Checks: valid format; top-5% share in steps 43-49 <= 0.203.
 Built (experiments/z_build.py): Z8_plus_r10 (Spearman 0.9994 vs v20, share 0.146); Z9_plus_r10_x1 (0.9992, 0.147); Z5_plus_x1 (0.9996, 0.143). All pass. Public: Z8 ____ Z5 ____ slot 3 ____
+
+## 2026-10-24 (final day) pre-declared draws: post-shutdown downshift (declared BEFORE building)
+Evidence (label-free, no leaderboard probing): (1) experiment 9's EM estimate of illicit prevalence in test steps 43-49 is ~0.0001 vs 0.01-0.11 in steps 36-42; (2) v20's top-scored rows in 43-49 already sit below the top 5% of 36-42 (only 4 rows above it), but the BULK of 43-49 sits higher than the bulk of 36-42 (step 44 median logit -5.4 vs about -7 in 36-42). That middle band is where the missed illicit family of 36-42 is ranked, so licit rows of 43-49 likely outrank missed illicit rows.
+Draw: Wd = v20 with logit reduced by d for every row in steps 43-49 (order within 43-49 and within 36-42 unchanged).
+Ladder: slot 1 = moderate d (chosen BEFORE submission from the build output: the d whose Spearman vs v20 is closest to 0.99). Slot 2: if slot 1 beats v20 -> larger d (closest to 0.98); if not -> Z8. Slot 3: if slot 2 beats the best so far -> W_full (all 43-49 below all 36-42); otherwise Z9. Risk stated in advance: illicit rows that do exist in 43-49 are pushed down.
+Built: W05_v20_down0.5 (d=0.50, Spearman 0.9898 vs v20, top-5% share 43-49 0.112); W07_v20_down0.7 (d=0.70, Spearman 0.9805 vs v20, top-5% share 43-49 0.096); Wfull_v20_down_all (d=15.59, Spearman 0.5119 vs v20, top-5% share 43-49 0.000). Slot 1 = W05 (Spearman closest to 0.99). Slot 2 option = W07 (closest to 0.98). Public: ______
