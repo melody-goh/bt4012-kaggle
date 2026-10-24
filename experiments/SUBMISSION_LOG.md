@@ -246,7 +246,7 @@ Built: U03_v20_up0.3 (Spearman 0.9961 vs v20, top-5% share 43-49 0.166, limit 0.
 ## 2026-10-24 FINAL slot: plan revised (declared BEFORE building; replaces 'slot 3 = U06')
 Quadratic fit through the three public points on v20's step 43-49 logit shift (-0.5: 0.95277, 0: 0.95400, +0.3: 0.95403) peaks at +0.17 (predicted 0.95408) and predicts U06 (+0.6) at 0.95353, a loss. So the pre-declared U06 is dropped: the shift lever is used up.
 FINAL = Z8 (v12 + R20 + R15 + R10 + v7, equal fifths) with logit +0.17 on steps 43-49. Rationale: combine the two separate small levers that each helped publicly: adding recent-window views (v19 -> v20 +0.0003) and the fitted shift. Public-leaderboard tuning of one number (the shift) is noted for the report.
-Built: submission_FINAL_z8_up0.17.csv (Spearman 0.9982 vs v20, 0.9986 vs v22/U03; top-5% share 43-49 0.155, limit 0.203). Public: below 0.95403 (exact score: ____). Did not beat v22.
+Built: submission_FINAL_z8_up0.17.csv (Spearman 0.9982 vs v20, 0.9986 vs v22/U03; top-5% share 43-49 0.155, limit 0.203). Public: below 0.95403 (submitted as submission_final.csv; exact score: ____). Did not beat v22.
 
 ## Final result
 Best public score: 0.95403 (submission_v22.csv, U03); v20 0.95400 essentially tied. Grading uses the PRIVATE leaderboard of the selected submissions (course rubric: 10 x (AUC / highest AUC)^5); at the time the highest public AUC was 0.97582, so 0.95403 corresponds to about 8.93 / 10 if the private score is similar.
