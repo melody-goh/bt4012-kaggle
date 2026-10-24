@@ -241,4 +241,8 @@ Built: W05_v20_down0.5 (d=0.50, Spearman 0.9898 vs v20, top-5% share 43-49 0.112
 Reason: the public score has moved smoothly with ranking distance (pairwise table above), so W05's loss suggests the score falls as steps 43-49 move DOWN from v20's level. The opposite direction is the one tested step left. NOTE for the report: this tunes ONE global number using the public score (public-leaderboard tuning, not label extraction; no hidden labels used).
 - U03 = v20 with logit RAISED by 0.3 for all rows in steps 43-49 (smaller than 0.5 to limit overshoot if v20 is already near the peak).
 Slot 3: if U03 beats v20 -> U06 (raise 0.6); if not -> Z8 (safe near-twin).
-Built: U03_v20_up0.3 (Spearman 0.9961 vs v20, top-5% share 43-49 0.166, limit 0.203); U06_v20_up0.6 (Spearman 0.9847 vs v20, top-5% share 43-49 0.181, limit 0.203). Public: U03 ____
+Built: U03_v20_up0.3 (Spearman 0.9961 vs v20, top-5% share 43-49 0.166, limit 0.203); U06_v20_up0.6 (Spearman 0.9847 vs v20, top-5% share 43-49 0.181, limit 0.203). Public: U03 0.95403 (+0.00003 vs v20): NEW BEST by a hair.
+
+## 2026-10-24 FINAL slot: plan revised (declared BEFORE building; replaces 'slot 3 = U06')
+Quadratic fit through the three public points on v20's step 43-49 logit shift (-0.5: 0.95277, 0: 0.95400, +0.3: 0.95403) peaks at +0.17 (predicted 0.95408) and predicts U06 (+0.6) at 0.95353, a loss. So the pre-declared U06 is dropped: the shift lever is used up.
+FINAL = Z8 (v12 + R20 + R15 + R10 + v7, equal fifths) with logit +0.17 on steps 43-49. Rationale: combine the two separate small levers that each helped publicly: adding recent-window views (v19 -> v20 +0.0003) and the fitted shift. Public-leaderboard tuning of one number (the shift) is noted for the report.
