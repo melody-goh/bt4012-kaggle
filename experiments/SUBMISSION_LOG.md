@@ -37,9 +37,9 @@ Not submitted: submission_H2_v2_l71bal.csv (V2 + last71 with is_unbalance, offli
 
 - Self-training / pseudo-labelling: round-2 seed precision 0.58, pooled AUC fell. Dropped.
 - Seed bagging, CatBoost and other model-type swaps: failed the offline gate.
-- MLP blend: offline +0.0029 on 5/5, public -0.0052. Lesson: my earlier "within +/-0.003 is noise" guidance was too loose for correlated files.
+- MLP blend: offline +0.0029 on 5/5, public -0.0052. Lesson: the earlier rule of thumb that differences within +/-0.003 are noise was too loose for correlated files.
 - V33 + V3: failed the gate, was submitted anyway, scored 0.94748. Lesson: do not submit candidates that failed a gate.
-- kNN geometry features (B1): strong offline gain, public drop. HYPOTHESIS (not proven): the f2<6 density flag misfires on test steps after the step-43 market shutdown (Weber et al. 2019, cited from memory), so offline validation did not represent test.
+- kNN geometry features (B1): strong offline gain, public drop. HYPOTHESIS (not proven): the f2<6 density flag misfires on test steps after the step-43 market shutdown (Weber et al. 2019), so offline validation did not represent test.
 - Pattern: small re-mixes of existing LGBM model types transferred publicly; new signal types (MLP, V33 swap, geometry) did not.
 - Variants of D (all failed the gate "mean gain >= +0.001 and better on >= 4 of 6 cutoffs"):
   - E1 half-life 14: +0.0001 (2/6)

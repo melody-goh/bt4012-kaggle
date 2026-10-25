@@ -1,4 +1,0 @@
-cutoff 10: start objective 0.9461, folds 5
-  round 0: drop block 4 -> 0.9612 (34s)
-  round 1: drop block 2 -> 0.9741 (61s)
-  round 2: drop block 3 -> 0.9792 (85s)

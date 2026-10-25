@@ -1,4 +1,0 @@
-model,filename,public_roc_auc,score_source,sha256
-v1,submission_lgbm_v1.csv,0.94719,user-confirmed,6779746adbe338e1fee9a4d1f5d61dff8c78d91289898f6c6e109aed3979f19d
-v2,submission_v2.csv,0.94785,user-confirmed,24cec6bb7720d4c9de5d551a1e4cdf62d27a093e0b2585b2d3cfc99ba000327d
-v3,submission_v3.csv,0.9451,user-confirmed,20e8a129a2fbcb034a2b8314f78586137fcc6d9b08ba3e336f8abcdf0284b3a1

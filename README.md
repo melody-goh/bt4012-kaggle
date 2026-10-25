@@ -3,6 +3,12 @@
 Predicts illicit Bitcoin transactions in future time steps (36-49). Metric: ROC-AUC.
 Final selected submissions: `submission_v20.csv` (public 0.95400) and `submission_v22.csv` (public 0.95403).
 
+## Quick start
+
+1. Put the competition files in `data/` (see below).
+2. Create the two Python environments (see below).
+3. Run `./reproduce.sh`. It writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`.
+
 ## 1. Data
 
 The dataset is not included. Download the competition files and place them in `data/` at the repo root:
@@ -17,7 +23,7 @@ data/
 
 ## 2. Setup
 
-The final submissions were built in two stages with two Python versions (the library versions change LightGBM's results slightly, so each stage must use its original environment):
+The final submissions were built in two stages with two Python versions. The library versions change LightGBM's results slightly, so each stage must use its original environment. Python 3.10 and 3.13 are available from python.org.
 
 ```sh
 python3.10 -m venv .venv310 && .venv310/bin/pip install -r requirements-py310.txt
@@ -30,16 +36,16 @@ python3.13 -m venv .venv313 && .venv313/bin/pip install -r requirements.txt
 ./reproduce.sh
 ```
 
-(Or point to other interpreters: `PY310=/path/to/python3.10 PY313=/path/to/python3.13 ./reproduce.sh`.)
+To use interpreters in other locations: `PY310=/path/to/python3.10 PY313=/path/to/python3.13 ./reproduce.sh`.
 
-- Stage 1 (`experiments/reproduce_stage1.py`, Python 3.10) trains V2, V3, D and X2 and writes them to `outputs/components/`.
-- Stage 2 (`experiments/reproduce_stage2.py`, Python 3.13) builds v7, trains R15, blends, and writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`. It then compares them with the submitted files in `submissions/submitted/`.
+- Stage 1 (`src/reproduce_stage1.py`, Python 3.10) trains V2, V3, D and X2 and writes them to `outputs/components/`.
+- Stage 2 (`src/reproduce_stage2.py`, Python 3.13) builds v7, trains R15, blends, and writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`. It then compares them with the submitted files in `submissions/submitted/`.
 
-Options for both scripts: `--data-dir` (default `data/`), `--out-dir` (default `outputs/`). Runtime is a few minutes on a laptop CPU.
+Both scripts accept `--data-dir` (default `data/`) and `--out-dir` (default `outputs/`). Runtime is a few minutes on a laptop CPU.
 
 ## 4. What the models are
 
-All models are LightGBM (300 trees, learning rate 0.03, 31 leaves, seed 42), trained on labelled rows of steps 1-35 only. "Graph features" are the mean and standard deviation of 8 key features over each transaction's incoming neighbours, plus in-degree and the number of visible sources (`experiments/pipeline.py`, `graph_features`).
+All models are LightGBM (300 trees, learning rate 0.03, 31 leaves, seed 42), trained on labelled rows of steps 1-35 only. "Graph features" are the mean and standard deviation of 8 key features over each transaction's incoming neighbours, plus in-degree and the number of visible sources (`src/pipeline.py`, `graph_features`).
 
 | Part | Definition |
 |---|---|
@@ -57,11 +63,18 @@ The regenerated files have the same ranking as the submitted files, so they give
 
 ## 6. Repository layout
 
-- `reproduce.sh`, `experiments/reproduce_stage1.py`, `experiments/reproduce_stage2.py`: end-to-end training and inference for the final submissions.
-- `experiments/pipeline.py`: data loading, graph features, submission checks.
-- `experiments/SUBMISSION_LOG.md`: every submission, its rationale, the pre-declared validation rules and public scores.
-- `experiments/*_gate.py`, `*_build.py`: the experiments described in the log.
-- `submissions/submitted/`: every file submitted to Kaggle (`BEST_0.95044.csv` is an identical copy of `submission_v7.csv`). The two final selections are `submission_v20.csv` and `submission_v22.csv`.
-- `submissions/not_submitted/`: candidates that were built but not submitted (see the log for why).
+```
+reproduce.sh                 runs both stages
+requirements-py310.txt       stage 1 environment
+requirements.txt             stage 2 environment
+src/                         pipeline.py (data loading, graph features, checks) and the two stage scripts
+notebooks/                   baseline notebook (V1-V3) and an early numerical check
+submissions/submitted/       every file submitted to Kaggle, including the final v20 and v22
+submissions/not_submitted/   candidates built but not submitted
+experiments/                 SUBMISSION_LOG.md and the experiment scripts it describes
+experiments/archive/         earlier work, not needed for reproduction
+```
 
-The experiment scripts were written when all submission files sat in the repo root. To re-run them, copy the files back first: `cp submissions/*/*.csv .`
+`experiments/SUBMISSION_LOG.md` records every submission, its rationale, the validation rules declared before each experiment, and the public scores. `BEST_0.95044.csv` in `submissions/submitted/` is an identical copy of `submission_v7.csv`.
+
+The experiment scripts were written when `pipeline.py` sat in `experiments/` and all submission files sat in the project root. To re-run one, copy the submission files back to the root (`cp submissions/*/*.csv .`), then run the script from `experiments/` with `PYTHONPATH=../src`.

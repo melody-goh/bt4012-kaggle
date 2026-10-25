@@ -5,5 +5,5 @@ set -e
 cd "$(dirname "$0")"
 PY310=${PY310:-.venv310/bin/python}
 PY313=${PY313:-.venv313/bin/python}
-"$PY310" experiments/reproduce_stage1.py "$@"
-"$PY313" experiments/reproduce_stage2.py --check "$@"
+"$PY310" src/reproduce_stage1.py "$@"
+"$PY313" src/reproduce_stage2.py --check "$@"
