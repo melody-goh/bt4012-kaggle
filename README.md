@@ -33,7 +33,7 @@ python3.13 -m venv .venv313 && .venv313/bin/pip install -r requirements.txt
 (Or point to other interpreters: `PY310=/path/to/python3.10 PY313=/path/to/python3.13 ./reproduce.sh`.)
 
 - Stage 1 (`experiments/reproduce_stage1.py`, Python 3.10) trains V2, V3, D and X2 and writes them to `outputs/components/`.
-- Stage 2 (`experiments/reproduce_stage2.py`, Python 3.13) builds v7, trains R15, blends, and writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`. It then compares them with the submitted files in the repo root.
+- Stage 2 (`experiments/reproduce_stage2.py`, Python 3.13) builds v7, trains R15, blends, and writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`. It then compares them with the submitted files in `submissions/submitted/`.
 
 Options for both scripts: `--data-dir` (default `data/`), `--out-dir` (default `outputs/`). Runtime is a few minutes on a laptop CPU.
 
@@ -61,4 +61,7 @@ The regenerated files have the same ranking as the submitted files, so they give
 - `experiments/pipeline.py`: data loading, graph features, submission checks.
 - `experiments/SUBMISSION_LOG.md`: every submission, its rationale, the pre-declared validation rules and public scores.
 - `experiments/*_gate.py`, `*_build.py`: the experiments described in the log.
-- `submission_*.csv`: all submitted and candidate files.
+- `submissions/submitted/`: every file submitted to Kaggle (`BEST_0.95044.csv` is an identical copy of `submission_v7.csv`). The two final selections are `submission_v20.csv` and `submission_v22.csv`.
+- `submissions/not_submitted/`: candidates that were built but not submitted (see the log for why).
+
+The experiment scripts were written when all submission files sat in the repo root. To re-run them, copy the files back first: `cp submissions/*/*.csv .`

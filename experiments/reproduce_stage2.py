@@ -1,13 +1,13 @@
 """Stage 2 of 2 (run with Python 3.13, requirements.txt): the steps originally run in that environment.
 
 Reads stage 1's components and replays the original order of operations, including the CSV
-round-trips between steps, so the final files are identical to the submitted ones:
+round-trips between steps, so the final files match the submitted ones (same ranking, values to ~1e-16):
   v7  = logit avg(v2, v3)
   Y2  = logit avg(v12, R15), R15 = D recipe trained on steps >= 15; R15 is then recovered from Y2
   v20 = logit avg(v12, v16_new, R15, v7)
   v22 = v20 with logit + 0.3 for test steps 43-49
 Writes <out-dir>/submission_v20.csv and <out-dir>/submission_v22.csv. --check compares them with the
-submitted files in the repo root.
+submitted files in submissions/submitted/.
 """
 import argparse, filecmp
 from pathlib import Path
@@ -16,7 +16,7 @@ from lightgbm import LGBMClassifier
 from scipy.special import logit, expit
 from pipeline import BASE, load_data, graph_features, validate_submission
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent; SUBMITTED = ROOT / "submissions" / "submitted"
 ap = argparse.ArgumentParser()
 ap.add_argument("--data-dir", default=ROOT / "data", type=Path)
 ap.add_argument("--out-dir", default=ROOT / "outputs", type=Path)
@@ -48,7 +48,7 @@ v22 = save(expit(Lcsv(v20) + .3 * late), args.out_dir / "submission_v22.csv")
 
 for path in (v20, v22):
     print("saved", path)
-    if args.check and (ROOT / path.name).exists():
-        new, ref = read(path), read(ROOT / path.name)
-        print(f"  vs submitted {path.name}: byte-identical {filecmp.cmp(path, ROOT / path.name, shallow=False)}, "
+    if args.check and (SUBMITTED / path.name).exists():
+        new, ref = read(path), read(SUBMITTED / path.name)
+        print(f"  vs submitted {path.name}: byte-identical {filecmp.cmp(path, SUBMITTED / path.name, shallow=False)}, "
               f"ranking identical {(new.rank(method='min') == ref.rank(method='min')).all()}, max |diff| {np.abs(new - ref).max():.1e}")
