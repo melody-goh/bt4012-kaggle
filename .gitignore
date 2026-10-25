@@ -14,3 +14,7 @@ catboost_info/
 *.pkl
 .DS_Store
 .ipynb_checkpoints/
+
+# Data folder and regenerated outputs
+data/
+outputs/
