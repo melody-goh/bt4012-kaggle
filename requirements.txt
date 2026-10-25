@@ -1,4 +1,4 @@
-# Python 3.13
+# Python 3.13 (stage 2)
 lightgbm==4.7.0
 numpy==2.5.4
 pandas==3.0.6

@@ -18,3 +18,5 @@ catboost_info/
 # Data folder and regenerated outputs
 data/
 outputs/
+.venv310/
+.venv313/

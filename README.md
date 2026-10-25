@@ -17,26 +17,25 @@ data/
 
 ## 2. Setup
 
-Python 3.13:
+The final submissions were built in two stages with two Python versions (the library versions change LightGBM's results slightly, so each stage must use its original environment):
 
 ```sh
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python3.10 -m venv .venv310 && .venv310/bin/pip install -r requirements-py310.txt
+python3.13 -m venv .venv313 && .venv313/bin/pip install -r requirements.txt
 ```
 
 ## 3. Reproduce the two final submissions
 
 ```sh
-python experiments/reproduce_final.py
+./reproduce.sh
 ```
 
-This trains every model from `data/` and writes:
+(Or point to other interpreters: `PY310=/path/to/python3.10 PY313=/path/to/python3.13 ./reproduce.sh`.)
 
-- `outputs/submission_v20.csv`
-- `outputs/submission_v22.csv`
+- Stage 1 (`experiments/reproduce_stage1.py`, Python 3.10) trains V2, V3, D and X2 and writes them to `outputs/components/`.
+- Stage 2 (`experiments/reproduce_stage2.py`, Python 3.13) builds v7, trains R15, blends, and writes `outputs/submission_v20.csv` and `outputs/submission_v22.csv`. It then compares them with the submitted files in the repo root.
 
-Options: `--data-dir` (default `data/`), `--out-dir` (default `outputs/`), `--check` (compare with the submitted files in the repo root). Runtime is a few minutes on a laptop CPU.
+Options for both scripts: `--data-dir` (default `data/`), `--out-dir` (default `outputs/`). Runtime is a few minutes on a laptop CPU.
 
 ## 4. What the models are
 
@@ -54,11 +53,11 @@ All models are LightGBM (300 trees, learning rate 0.03, 31 leaves, seed 42), tra
 
 ## 5. Note on exact reproduction
 
-The script is deterministic: repeated runs give identical files. Its output matches the submitted files' ranking with Spearman correlation 0.9991 but not bit-for-bit, because some components were originally generated in a different computing environment and LightGBM's floating-point results differ slightly across platforms. The submitted files are kept in the repo root for reference.
+The regenerated files have the same ranking as the submitted files, so they give the same AUC. Their values match to about 15 decimal places: 3 of 15,329 rows differ by about 1e-16, the floating-point rounding limit. The original build scripts show the same last-digit differences when they are rerun in their original environment, so this is floating-point noise, not a change in the model.
 
 ## 6. Repository layout
 
-- `experiments/reproduce_final.py`: end-to-end training and inference for the final submissions.
+- `reproduce.sh`, `experiments/reproduce_stage1.py`, `experiments/reproduce_stage2.py`: end-to-end training and inference for the final submissions.
 - `experiments/pipeline.py`: data loading, graph features, submission checks.
 - `experiments/SUBMISSION_LOG.md`: every submission, its rationale, the pre-declared validation rules and public scores.
 - `experiments/*_gate.py`, `*_build.py`: the experiments described in the log.
