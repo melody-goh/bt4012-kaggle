@@ -70,11 +70,14 @@ requirements.txt             stage 2 environment
 src/                         pipeline.py (data loading, graph features, checks) and the two stage scripts
 notebooks/                   baseline notebook (V1-V3) and an early numerical check
 submissions/submitted/       every file submitted to Kaggle, including the final v20 and v22
-submissions/not_submitted/   candidates built but not submitted
 experiments/                 SUBMISSION_LOG.md and the experiment scripts it describes
 experiments/archive/         earlier work, not needed for reproduction
 ```
 
-`experiments/SUBMISSION_LOG.md` records every submission, its rationale, the validation rules declared before each experiment, and the public scores. `BEST_0.95044.csv` in `submissions/submitted/` is an identical copy of `submission_v7.csv`.
+`experiments/SUBMISSION_LOG.md` records every submission, its rationale, the validation rules declared before each experiment, and the public scores. `BEST_0.95044.csv` in `submissions/submitted/` is an identical copy of `submission_v7.csv`. Candidates that were built but not submitted are described in the log and can be rebuilt with the `*_build.py` scripts.
 
 The experiment scripts were written when `pipeline.py` sat in `experiments/` and all submission files sat in the project root. To re-run one, copy the submission files back to the root (`cp submissions/*/*.csv .`), then run the script from `experiments/` with `PYTHONPATH=../src`.
+
+## Acknowledgement
+
+Claude (Anthropic) helped with the documentation and organisation of this repository.

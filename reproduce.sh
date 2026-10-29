@@ -1,5 +1,5 @@
 #!/bin/sh
-# Rebuild the two final submissions. PY310 / PY313 point to Python 3.10 and 3.13 interpreters with
+# To rebuild the two final submissions. PY310 / PY313 point to Python 3.10 and 3.13 interpreters with
 # requirements-py310.txt and requirements.txt installed (defaults: .venv310 and .venv313 in the repo root).
 set -e
 cd "$(dirname "$0")"
